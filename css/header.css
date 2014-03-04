@@ -1,0 +1,33 @@
+.nav_bar{
+	position: relative;
+	background: #fff;
+	padding: 5px 10px 5px 10px;
+	overflow: hidden;
+	width:100%;
+	display: table;
+	box-shadow: 0 0 8px 1px rgb(210, 210, 210);
+	border-bottom:1px #F76C88 solid;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	display: table-cell;
+}
+.logo a{
+	height: inherit;
+	width: inherit;
+	cursor: pointer;
+}
+.logo a img{
+	height: inherit;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+.logo a img:hover{
+	box-shadow: 0 0 7px 1px #F76C88;
+}
+.page_title{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
