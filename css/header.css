@@ -1,3 +1,6 @@
+a{
+    color:#404040;
+}
 .nav_bar{
 	position: relative;
 	background: #fff;
@@ -5,7 +8,7 @@
 	overflow: hidden;
 	width:100%;
 	display: table;
-	box-shadow: 0 0 8px 1px rgb(210, 210, 210);
+	box-shadow: 0 0 8px 1px rgb(190, 190, 190);
 	border-bottom:1px #F76C88 solid;
 }
 .logo{
@@ -30,4 +33,31 @@
 	height: 100%;
 	display: table-cell;
 	vertical-align: middle;
+}
+.header_menu{
+    float:left;
+}
+.header_menu > li{
+    font-size:1.3em;
+    padding:4px 10px 4px 0;
+    font-weight:bold;
+}
+.header_menu > li > ul{
+    position:absolute;
+    font-weight:normal;
+    margin-top:10px;
+    background-color:#fff;
+    border:1px #F76C88 solid;
+    font-size:.9em;
+    display: none;
+}
+.header_menu > li > ul > li > a{
+    padding:4px 10px 4px 10px;
+}
+.header_menu > li > ul > li:hover{
+    background:rgb(230, 230, 230);
+}
+.down_arrow{
+    font-size:.7em;
+    color:rgb(200, 200, 200);
 }

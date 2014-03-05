@@ -1,0 +1,44 @@
+.cl_header{
+	text-align: center;
+	overflow: hidden;
+}
+.cl_header h3{
+	float:left;
+}
+.cl_btn{
+	float:right;
+}
+.cl_container{
+	margin-top:10px;
+	border-collapse: collapse;
+	background: #fff;
+	border-radius: 10px;
+	border:1px #2ABCB9 solid;
+}
+.cl_container td{
+	border-bottom:1px rgb(200, 200, 200) solid;
+}
+.cl_container .cb{
+	padding:6px 0 6px 6px;
+}
+.cl_container .li_content{
+	
+}
+.cl_container label{
+	//border:1px red solid;
+	display: block;
+	padding:6px 10px 6px 10px;
+}
+.cover{
+	position: fixed;
+	height:100%;
+	width:100%;
+	background: #000;
+	opacity:0.6;
+}
+.login{
+	position: relative;
+	top:100px;
+	margin:0 auto;
+	width:500px;
+}

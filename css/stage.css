@@ -1,0 +1,31 @@
+.c1{
+    float:right;
+    height:150px;
+    width:700px;
+    background:limegreen;
+    margin-left:10px;
+}
+.c2{
+    float:left;
+    height:150px;
+    width:700px;
+    background:lightblue;
+    margin-top:10px;
+    margin-right:10px;
+}
+.c3{
+    float:right;
+    height:150px;
+    width:700px;
+    background:lightpink;
+    margin-top:10px;
+    margin-left:10px;
+}
+.c4{
+    float:left;
+    height:150px;
+    width:700px;
+    background:lightblue;
+    margin-top:10px;
+    margin-right:10px;
+}
