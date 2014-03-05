@@ -11,4 +11,17 @@ $(document).ready(function(){
 
 	});
 
+	$(".test_btn").click(function(){
+
+		$.ajax({
+
+			url: "php/login.php",
+			success: function(){
+				alert("success");
+			}
+
+		});
+
+	});
+
 });
