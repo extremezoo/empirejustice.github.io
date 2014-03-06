@@ -37,6 +37,12 @@ a{
 	cursor: pointer;
     text-decoration:none;
 }
+a:hover{
+	text-decoration: underline;
+}
+.color_link{
+	color: blue;
+}
 .container{
 	border:1px #2ABCB9 solid;
 	padding:10px;
