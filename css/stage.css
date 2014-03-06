@@ -1,30 +1,52 @@
+.stage_info{
+    margin-top:10px;
+}
+.stage_container{
+    padding:10px;
+    width:90%;
+    border-radius: 10px;
+}
+.stage_container h3{
+
+}
+.stage_container div{
+    margin-top: 10px;
+}
+.indent{
+    padding-left: 20px;
+}
 .c1{
     float:right;
-    height:150px;
-    width:700px;
-    background:limegreen;
+    background:#CAC9F2;
     margin-left:10px;
 }
 .c2{
     float:left;
-    height:150px;
-    width:700px;
+
     background:lightblue;
     margin-top:10px;
     margin-right:10px;
 }
 .c3{
     float:right;
-    height:150px;
-    width:700px;
-    background:lightpink;
+    background:#9BDD9F;
     margin-top:10px;
     margin-left:10px;
 }
 .c4{
     float:left;
-    height:150px;
-    width:700px;
+    background:pink;
+    margin-top:10px;
+    margin-right:10px;
+}
+.c5{
+    float:right;
+    background:lightpink;
+    margin-top:10px;
+    margin-left:10px;
+}
+.c6{
+    float:left;
     background:lightblue;
     margin-top:10px;
     margin-right:10px;
