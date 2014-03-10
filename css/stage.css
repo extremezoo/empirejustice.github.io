@@ -5,6 +5,7 @@
     padding:10px;
     width:90%;
     border-radius: 10px;
+    background: #fff;
 }
 .stage_container h3{
 
@@ -17,25 +18,24 @@
 }
 .c1{
     float:right;
-    background:#CAC9F2;
+    border: 4px #CAC9F2 solid;
     margin-left:10px;
 }
 .c2{
     float:left;
-
-    background:lightblue;
+    border: 4px lightblue solid;
     margin-top:10px;
     margin-right:10px;
 }
 .c3{
     float:right;
-    background:#9BDD9F;
+    border:4px #9BDD9F solid;
     margin-top:10px;
     margin-left:10px;
 }
 .c4{
     float:left;
-    background:pink;
+    border: 4px pink solid;
     margin-top:10px;
     margin-right:10px;
 }
