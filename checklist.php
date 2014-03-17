@@ -1,7 +1,10 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>My Checklist</title>
+    <link type="text/css" rel="stylesheet" href="css/foundation.css">
+    <link type="text/css" rel="stylesheet" href="css/login.css">
     <link type="text/css" rel="stylesheet" href="css/base.css">
     <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/stage.css">
@@ -10,7 +13,20 @@
 <body>
     <div class="cover">
         <div class="login container">
-        jkhjkhkj
+            <div class="header">
+                <h3><b>Login</b></h3>
+            </div>
+            <div class="form">
+                <form method="POST" action="">
+                    <label><h4>Email:</h4></label>
+                    <input type="text" class="log_email" placeholder="example@hotmail.com">
+                    <label><h4>Password:</h4></label>
+                    <input type="password" class="log_password" placeholder="password">
+                </form>
+            </div>
+            <div class="footer">
+                <button class="login_btn">Get my checklist</button>
+            </div>
         </div>
     </div>
 	<div class="nav_bar noSelect">
