@@ -40,7 +40,7 @@ html, body {
 body {
   background:rgb(242, 242, 242);
   min-width:380px;
-  color: #404040;
+  color: #303030;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1840,27 +1840,27 @@ button, .button {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
-  margin: 0 0 1.25rem;
+  //margin: 0 0 1.25rem;
   position: relative;
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  //padding-top: 1rem;
+  //padding-right: 2rem;
+  //padding-bottom: 1.0625rem;
+  //padding-left: 2rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */
-  background-color: #008cba;
-  border-color: #007295;
+  background-color: #2ABCB9;
+  border-color: #30A8A2;
   color: white;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  padding-top: .4rem;
+  padding-right: .6rem;
+  padding-bottom: .4rem;
+  padding-left: .6rem;
   font-size: 1rem;
   /*     @else                            { font-size: $padding - rem-calc(2); } */ }
   button:hover, button:focus, .button:hover, .button:focus {
