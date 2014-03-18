@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 	
 	//$file = "../personal/1.txt";
 	//file_put_contents($file, "Hello", FILE_APPEND | LOCK_EX);
@@ -18,8 +18,9 @@
 		if($log_pass === $db_password){
 
 			$_SESSION['email'] = $log_email;
+			//header("Location: //localhost/team4/checklist.php");
 			echo "success";
-		
+			
 		}
 		else{
 			
