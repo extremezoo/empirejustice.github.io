@@ -1,15 +1,3 @@
-*{
-	margin:0;
-	padding:0;
-}
-html{
-	background:rgb(242, 242, 242);
-}
-body{
-	font-family:Arial;
-	min-width:380px;
-	color: #404040;
-}
 h1, h2, h3, h4, h5, h6, .noSelect{
 	user-select:none;
 	-ms-user-select:none;

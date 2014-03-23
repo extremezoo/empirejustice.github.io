@@ -7,11 +7,11 @@
     border-radius: 10px;
     background: #fff;
 }
-.stage_container h3{
-
-}
 .stage_container div{
     margin-top: 10px;
+}
+.stage_title{
+    border:4px #2ABCB9 solid;
 }
 .indent{
     padding-left: 20px;
