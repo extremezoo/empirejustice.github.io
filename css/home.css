@@ -20,6 +20,9 @@ a{
 	margin-bottom:2px;
 	background: #2ABCB9;
 	background: -moz-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -ms-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -webkit-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -o-linear-gradient(bottom, #2ABCB9, #30A8A2);
 	text-align: center;
 	font-size: 1.3em;
 	color:#fff;
@@ -49,6 +52,9 @@ li.first{
 li.last{
 	background: #F76C88;
 	background: -moz-linear-gradient(bottom, #F45A86, #F4336A);
+	background: -ms-linear-gradient(bottom, #F45A86, #F4336A);
+	background: -webkit-linear-gradient(bottom, #F45A86, #F4336A);
+	background: -o-linear-gradient(bottom, #F45A86, #F4336A);
 	border-left:1px #F4336A solid;
 	border-right:1px #F4336A solid;
 	border-bottom-left-radius: 10px;
