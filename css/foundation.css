@@ -39,7 +39,7 @@ html, body {
 
 body {
   background:rgb(242, 242, 242);
-  min-width:380px;
+  //min-width:300px;
   color: #303030;
   padding: 0;
   margin: 0;
