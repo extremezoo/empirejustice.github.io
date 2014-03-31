@@ -79,5 +79,10 @@
 }
 
 .faqNav{
-    margin: 10px;
+    padding:10px;
+    width:90%;
+    border-radius: 10px;
+    background: #fff;
+    border: 4px #ffffff solid;
+    margin: 10px auto;
 }
