@@ -81,6 +81,7 @@
 #faqNav{
     padding:15px;
     width:95%;
+    border: 4px #c5d4b8 solid;
     border-radius: 10px;
     background: #d4d4d4;
     margin: 10px auto;
