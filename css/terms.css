@@ -1,3 +1,6 @@
+#glossaryNav{
+  overflow:hidden;
+}
 #glossaryNav ul li{
   float:left;
 }
