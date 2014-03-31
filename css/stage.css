@@ -48,7 +48,32 @@
 }
 .c6{
     float:left;
-    background:lightblue;
+    border: 4px #f2D5d5 solid;
+    margin-top:10px;
+    margin-right:10px;
+}
+.c7{
+    float:right;
+    border: 4px #f2f2bf solid;
+    margin-top:10px;
+    margin-right:10px;
+}
+.c8{
+    float:left;
+    border: 4px #d5f2d9 solid;
+    margin-top:10px;
+    margin-right:10px;
+}
+.c9{
+    float:right;
+    border: 4px #f2d0a9 solid;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.c10{
+    float:left;
+    border: 4px #cac9f2 solid;
     margin-top:10px;
     margin-right:10px;
 }
