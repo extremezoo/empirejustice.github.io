@@ -14,7 +14,8 @@ ul{
 	list-style-type:none;
 }
 ul li{
-	cursor: pointer;
+	cursor: default;
+	padding-left: 1em;
 }
 li a{
     display:block;
@@ -45,4 +46,8 @@ a:hover{
 	max-width: 800px;
 	margin: 0 auto;
     overflow:hidden;
+}
+.linksul{
+	text-decoration:underline;
+	color:blue !important;
 }
