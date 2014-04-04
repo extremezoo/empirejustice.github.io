@@ -26,6 +26,7 @@ div{
 	box-sizing:border-box;
 }
 a{
+	color:#15A5A0;
 	cursor: pointer;
     text-decoration:none;
 }
@@ -46,8 +47,4 @@ a:hover{
 	max-width: 800px;
 	margin: 0 auto;
     overflow:hidden;
-}
-.linksul{
-	text-decoration:underline;
-	color:blue !important;
 }

@@ -3,6 +3,10 @@
 <html>
 <head>
 	<title>My Checklist</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;">
+    <meta name="author" content="Umair Ahmad">
     <link type="text/css" rel="stylesheet" href="css/foundation.css">
     <link type="text/css" rel="stylesheet" href="css/login.css">
     <link type="text/css" rel="stylesheet" href="css/base.css">
