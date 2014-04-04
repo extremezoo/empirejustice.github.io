@@ -17,58 +17,49 @@
     padding-left: 20px;
 }
 .c1{
-    //float:right;
+    float:left;
     border: 4px #CAC9F2 solid;
-    //margin-left:10px;
     margin-top:10px;
 }
 .c2{
-    //float:left;
+    float:left;
     border: 4px lightblue solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 .c3{
-    //float:right;
+    float:left;
     border:4px #9BDD9F solid;
     margin-top:10px;
-    //margin-left:10px;
 }
 .c4{
-    //float:left;
+    float:left;
     border: 4px #CAC9F2 solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 .c5{
-    //float:right;
+    float:left;
     border: 4px lightpink solid;
     margin-top:10px;
-    //margin-left:10px;
 }
 .c6{
-    //float:left;
+    float:left;
     border: 4px #f2D5d5 solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 .c7{
-    //float:right;
+    float:left;
     border: 4px #f2f2bf solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 .c8{
-    //float:left;
+    float:left;
     border: 4px #d5f2d9 solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 .c9{
-    //float:right;
+    float:left;
     border: 4px #f2d0a9 solid;
     margin-top:10px;
-    //margin-right:10px;
 }
 
 .c10{
