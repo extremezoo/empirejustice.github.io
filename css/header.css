@@ -9,6 +9,7 @@
 	display: table;
 	box-shadow: 0 0 8px 1px rgb(190, 190, 190);
 	border-bottom:1px #F76C88 solid;
+	z-index: 10;
 }
 .logo{
 	height: 50px;
