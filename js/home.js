@@ -12,7 +12,7 @@ $(document).ready(function(){
 	});
 
 	
-    $(window).bind('DOMMouseScroll', function(e){
+    /*$(window).bind('DOMMouseScroll', function(e){
     	if(e.originalEvent.detail > 0) {
         	//scroll down
         	$(".nav_bar").fadeOut();
@@ -32,7 +32,21 @@ $(document).ready(function(){
         	//scroll up
         	$(".nav_bar").fadeIn();
     	}
- 	});
+ 	});*/
+
+	$(window).on("scroll", function(){
+
+		$offset = $(window).scrollTop() - 1;
+		$curr = $(window).scrollTop();
+
+		if($curr == $offset)
+		{
+			$(".nav_bar").fadeOut();
+		}
+
+	});
+
+ 	
 
 	$(".test_btn").click(function(){
 
