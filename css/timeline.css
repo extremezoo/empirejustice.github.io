@@ -1,7 +1,7 @@
 .tl_bar{
 	//height:400px;
 	width: 8%;
-	background-color: #fff;
+	background: #fff;
 	float: right;
 	position: absolute;
 	margin-top:10px;
@@ -15,10 +15,10 @@
 	border-top:1px #F76C88 solid;
 }
 .s1{
-	background-color: #76D1CD;
+	background: #76D1CD;
 }
 .s2{
-	
+
 }
 .s3{
 
