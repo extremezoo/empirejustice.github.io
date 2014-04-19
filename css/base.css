@@ -50,3 +50,11 @@ a:hover{
     position: relative;
     top:70px;
 }
+.ques_info{
+	position: absolute;
+	border:1px lightgray solid;
+	background: #fff;
+	padding:5px;
+	margin:2px;
+	display: none;
+}
