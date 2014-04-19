@@ -33,6 +33,18 @@
 	height: 100%;
 	display: table-cell;
 	vertical-align: middle;
+	cursor: pointer !important;
+}
+.page_title h3{
+	float:left;
+
+}
+.ques{
+	margin-left:10px;
+	float:left;
+}
+.ques button{
+	border-radius: 30px;
 }
 .header_menu{
     float:left;

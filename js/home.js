@@ -11,7 +11,15 @@ $(document).ready(function(){
 
 	});
 
-	
+	$(".ques button").on("click", function(){
+
+		if($(".ques_info").length === 0){
+			$(".ques").append("<div class='ques_info'>Click on the torch to get back home<br>Click on the title to see the menu</div>");
+		}
+		
+		$(".ques_info").toggle(100);
+
+	});
     /*$(window).bind('DOMMouseScroll', function(e){
     	if(e.originalEvent.detail > 0) {
         	//scroll down
