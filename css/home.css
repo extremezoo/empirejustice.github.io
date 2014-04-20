@@ -14,11 +14,11 @@ a{
 }
 .home_menu > li{
 	padding:10px 0 10px 0;
-	border-left:2px #2ABCB9 solid;
-	border-right:2px #2ABCB9 solid;
+	border-left:2px #76A2A1 solid;
+	border-right:2px #76A2A1 solid;
 	margin-bottom:2px;
 	background: #2ABCB9;
-	background: -moz-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -moz-linear-gradient(bottom, #78A0AB, #57828B);
 	background: -ms-linear-gradient(bottom, #2ABCB9, #30A8A2);
 	background: -webkit-linear-gradient(bottom, #2ABCB9, #30A8A2);
 	background: -o-linear-gradient(bottom, #2ABCB9, #30A8A2);
