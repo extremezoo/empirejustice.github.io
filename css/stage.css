@@ -14,6 +14,10 @@
 }
 .stage_title{
     border:4px #76D1CD solid;
+    overflow: hidden;
+}
+.stage_title h3{
+    float:left;
 }
 .indent{
     padding-left: 20px;
@@ -77,4 +81,8 @@
     border-radius: 10px;
     background: #fff;
     margin-top: 10px;
+}
+
+.stage-nav{
+    float:right;
 }
