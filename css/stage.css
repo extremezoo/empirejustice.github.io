@@ -3,12 +3,14 @@
 }
 .stage_container{
     padding:10px;
-    width:90%;
     border-radius: 10px;
     background: #fff;
 }
 .stage_container div{
     margin-top: 10px;
+}
+.stage_container a{
+    text-decoration: underline;
 }
 .stage_title{
     border:4px #76D1CD solid;
