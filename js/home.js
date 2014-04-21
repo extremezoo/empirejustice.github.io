@@ -20,6 +20,20 @@ $(document).ready(function(){
 		$(".ques_info").toggle(100);
 
 	});
+
+	$(document).click(function(e){
+    	var elem = $(e.target).attr('id'); //this should give you the clicked element's id attribute
+    	if(elem !== 'menu-1'){
+        	$('.list-1').slideUp(200); //or however you want to hide it
+    	}
+    	if(elem !== 'menu-2'){
+        	$('.list-2').slideUp(200); //or however you want to hide it
+    	}
+    	if(elem !== 'menu-3'){
+        	$('.list-3').slideUp(200); //or however you want to hide it
+    	}
+	});
+
     /*$(window).bind('DOMMouseScroll', function(e){
     	if(e.originalEvent.detail > 0) {
         	//scroll down

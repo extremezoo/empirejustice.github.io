@@ -63,3 +63,12 @@ li.last{
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
+.menu_dropdown{
+	background:none !important;
+	font-size:1.05em;
+	padding-top:0;
+	padding-bottom:0;
+}
+.center{
+	text-align: center;
+}
