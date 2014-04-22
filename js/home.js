@@ -68,19 +68,19 @@ $(document).ready(function(){
 
 	});
 
- 	
 
-	$(".test_btn").click(function(){
+ 	$("dt").each(function(i, v){
+ 		$(this).addClass("dt-btn");
+ 	});
 
-		$.ajax({
+ 	$("#glossaryNav ul li").each(function(){
 
-			url: "php/login.php",
-			success: function(){
-				alert("success");
-			}
+ 		// $(this).addClass("button");
 
-		});
+ 	});
 
-	});
+ 	$("dt").on("click", function(){
+ 		$(this).next().stop().slideToggle(200);
+ 	});
 
 });

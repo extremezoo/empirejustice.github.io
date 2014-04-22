@@ -1,6 +1,34 @@
 #glossaryNav{
   overflow:hidden;
 }
-#glossaryNav ul li{
-  float:left;
+#glossaryNav ul li a{
+	//border:1px red solid;
+	padding:0 10px 0 10px;
+}
+.glossaryContent dd{
+	display: none;
+	border:1px lightgray solid;
+}
+.glossaryContent dd, .glossaryContent dt{
+	padding: 0 6px 0 6px;
+	border-radius:14px;
+}
+.dt-btn{
+	border:1px lightgray solid;
+}
+.dt-btn:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.side_container{
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+.stage_container{
+	width:92%;
+	float:right !important;
+}
+.button{
+	border-radius: 10px;
 }
