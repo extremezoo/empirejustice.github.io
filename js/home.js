@@ -50,6 +50,55 @@ $(document).ready(function(){
 
     });
 
+    $("#search_stage").on("keyup", function(){
+
+        $query = $("#search_stage").val().toLowerCase();
+        if($query != "")
+        {
+
+            $(".stage_container").each(function(){
+                $("div", this).each(function(){
+
+                    if($(this).text().toLowerCase().indexOf($query) == -1)
+                    {
+                        $(this).addClass("remove");
+                        $(this).removeClass("visible");
+                    }
+                    else
+                    {
+                        $(this).addClass("visible");
+                        $(this).removeClass("remove");
+                    }
+
+                });
+
+                if($(this).find("div.visible").length == 0)
+                {
+                    $(this).addClass("remove");
+                    $(this).removeClass("visible");
+                }
+                else if($(this).find("div.visible").length > 0)
+                {
+                    $(this).addClass("visible");
+                    $(this).removeClass("remove");
+                }
+
+            });
+        }
+        else
+        {
+            $(".stage_container div").each(function(){
+                $(this).addClass("visible");
+                $(this).removeClass("remove");
+            });
+            $(".stage_container").each(function(){
+                $(this).removeClass("remove");
+                $(this).addClass("visible");
+            });
+        }
+
+    });
+
 	$(".home_menu li").click(function(){
 
 		$(this).children("ul").stop().slideToggle(300);
