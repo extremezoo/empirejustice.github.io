@@ -87,3 +87,9 @@
 .stage-nav{
     float:right;
 }
+.visible{
+    display: block;
+}
+.remove{
+    display: none;
+}
