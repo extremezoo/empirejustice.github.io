@@ -32,3 +32,9 @@
 .button{
 	border-radius: 10px;
 }
+.visible{
+	display: block;
+}
+.remove{
+	display: none;
+}

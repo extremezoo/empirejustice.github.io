@@ -1,5 +1,55 @@
 $(document).ready(function(){
 
+
+    $("#search").on("keyup", function(){
+
+        $query = $("#search").val().toLowerCase();
+        if($query != "")
+        {
+
+            $(".stage_container").each(function(){
+                $(".glossaryContent dt").each(function(){
+
+                    if($(this).text().toLowerCase().indexOf($query) == -1)
+                    {
+                        $(this).addClass("remove");
+                        $(this).removeClass("visible");
+                    }
+                    else
+                    {
+                        $(this).addClass("visible");
+                        $(this).removeClass("remove");
+                    }
+
+                });
+
+                if($(this).find("dt.visible").length == 0)
+                {
+                    $(this).addClass("remove");
+                    $(this).removeClass("visible");
+                }
+                else if($(this).find("dt.visible").length > 0)
+                {
+                    $(this).addClass("visible");
+                    $(this).removeClass("remove");
+                }
+
+            });
+        }
+        else
+        {
+            $(".glossaryContent dt").each(function(){
+                $("dt").addClass("visible");
+                $("dt").removeClass("remove");
+            });
+            $(".stage_container").each(function(){
+                $(this).addClass("visible");
+                $(this).removeClass("remove");
+            });
+        }
+
+    });
+
 	$(".home_menu li").click(function(){
 
 		$(this).children("ul").stop().slideToggle(300);
