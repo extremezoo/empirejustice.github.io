@@ -25,7 +25,7 @@ div{
 	box-sizing:border-box;
 }
 a{
-	color:#15A5A0;
+	color:#007BA0;
 	cursor: pointer;
     text-decoration:none;
 }
@@ -33,10 +33,11 @@ a:hover{
 	text-decoration: underline;
 }
 .color_link{
-	color: #15A5A0;
+	color: #007BA0;
+	text-decoration: underline;
 }
 .container{
-	border:1px #2ABCB9 solid;
+	border:1px #94B5BC solid;
 	padding:10px;
 	border-radius: 10px;
 	background: #fff;
@@ -68,4 +69,9 @@ a:hover{
 .down_btn{
 	margin: 0 100px 0 100px;
 	margin-top:10px;
+}
+.highlight{
+	background: rgb(235, 240, 240);
+	border-bottom: 1px lightgray solid;
+	border-top: 1px lightgray solid;
 }
