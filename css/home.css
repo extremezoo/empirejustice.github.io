@@ -4,7 +4,7 @@ a{
 .welcome h3{
 	text-align: center;
 	margin-bottom: 8px;
-	color: #00B5AB;
+	color: #57828B;
 }
 .message p{
 	margin-top: 6px;
@@ -19,9 +19,9 @@ a{
 	margin-bottom:2px;
 	background: #2ABCB9;
 	background: -moz-linear-gradient(bottom, #78A0AB, #57828B);
-	background: -ms-linear-gradient(bottom, #2ABCB9, #30A8A2);
-	background: -webkit-linear-gradient(bottom, #2ABCB9, #30A8A2);
-	background: -o-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -ms-linear-gradient(bottom, #78A0AB, #57828B);
+	background: -webkit-linear-gradient(bottom, #78A0AB, #57828B);
+	background: -o-linear-gradient(bottom, #78A0AB, #57828B);
 	text-align: center;
 	font-size: 1.25em;
 	color:#fff;
