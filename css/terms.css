@@ -10,7 +10,7 @@
 }
 .glossaryContent dd, .glossaryContent dt{
 	padding: 0 6px 0 6px;
-	border-radius:14px;
+	border-radius:6px;
 }
 .dt-btn{
 	border:1px lightgray solid;
@@ -28,12 +28,25 @@
 	width:92%;
 	float:right !important;
 }
-.button{
+.stage_container .button{
 	border-radius: 10px;
+}
+.dt-border{
+	border-bottom-right-radius:0 !important;
+	border-bottom-left-radius:0 !important;
+	border:1px gray solid !important;
+}
+.dd-border{
+	border-top-right-radius:0 !important;
+	border-top-left-radius:0 !important;
+	border:1px gray solid !important;
 }
 .visible{
 	display: block;
 }
 .remove{
 	display: none;
+}
+.show_all_btn{
+	float:right;
 }

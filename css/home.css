@@ -49,8 +49,8 @@ a{
     padding:6px 12px 6px 12px; 
 }
 li.first{
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
 }
 li.last{
 	background: #F76C88;
@@ -60,8 +60,8 @@ li.last{
 	background: -o-linear-gradient(bottom, #F45A86, #F4336A);
 	border-left:1px #F4336A solid;
 	border-right:1px #F4336A solid;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
 .menu_dropdown{
 	background:none !important;
