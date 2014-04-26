@@ -12,26 +12,10 @@
     <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/stage.css">
     <link type="text/css" rel="stylesheet" href="css/checklist.css">
+    <link type="text/css" rel="stylesheet" media="print" href="css/print.css">
 </head>
 <body>
-    <div class="cover">
-        <div class="login container">
-            <div class="header">
-                <h3><b>Login</b></h3>
-            </div>
-            <div class="form">
-                <form method="POST" action="">
-                    <label><h4>Email:</h4></label>
-                    <input type="text" class="log_email" placeholder="example@hotmail.com">
-                    <label><h4>Password:</h4></label>
-                    <input type="password" class="log_password" placeholder="password">
-                </form>
-            </div>
-            <div class="footer">
-                <button class="login_btn">Get my checklist</button>
-            </div>
-        </div>
-    </div>
+
 	<div class="nav_bar noSelect">
 		<div class="logo">
 			<a href="index.html">
@@ -63,10 +47,13 @@
         
         <div class="container cl_header">
             <h3>Documents to gather for the Settlement Conference</h3>
-            <button class="btn cl_btn">Get my list</button>
+            <br><br>
+            <div>
+                Search this Page: <input id="search_stage" type="text" placeholder="Search...">
+            </div>
         </div>
 
-        <table class="cl_container noSelect">
+        <table class="cl_container noSelect" media="print">
 
             <tr>
                 <td class="cb">
@@ -196,7 +183,7 @@
             </tr>
 
         </table>
-
+        <button onclick="window.print();">Print Checklist</button>
     </div>
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
