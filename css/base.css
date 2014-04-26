@@ -39,7 +39,7 @@ a:hover{
 .container{
 	border:1px #94B5BC solid;
 	padding:10px;
-	border-radius: 10px;
+	border-radius: 6px;
 	background: #fff;
 }
 .main{
@@ -74,4 +74,7 @@ a:hover{
 	background: rgb(235, 240, 240);
 	border-bottom: 1px lightgray solid;
 	border-top: 1px lightgray solid;
+}
+.about_img{
+	float:right; height:150px; border-radius:4px;
 }
