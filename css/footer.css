@@ -1,7 +1,16 @@
 .footer{
-position:absolute;bottom:0;left:0
-background-color:black;
-width: 100%;
-text-align: center;
-font-size:20px;
+	margin-top:80px;
+	padding:10px;
+	border:1px #94B5BC solid;
+	border-left:0;
+	border-right:0;
+	background: #fff;
+	width: 100%;
+	font-size:0.95em;
+	overflow: hidden;
+}
+.footer_links{
+	font-size:0.95em;
+	float:left;
+	margin-top:5px;
 }
