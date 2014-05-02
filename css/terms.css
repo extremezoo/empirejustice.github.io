@@ -13,7 +13,7 @@
 	border-radius:6px;
 }
 .dt-btn{
-	border:1px lightgray solid;
+	border:1px rgb(190, 190, 190) solid;
 }
 .dt-btn:hover{
 	text-decoration: underline;
