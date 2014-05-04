@@ -75,6 +75,24 @@
     margin-top:10px;
 }
 
+.c11{
+    float:left;
+    border: 4px #FF5050 solid;
+    margin-top:10px;
+}
+
+.c12{
+    float:left;
+    border: 4px #FF9933 solid;
+    margin-top:10px;
+}
+
+.c13{
+    float:left;
+    border: 4px #00FF99 solid;
+    margin-top:10px;
+}
+
 #faqNav{
     padding:15px;
     border: 4px #c5d4b8 solid;
