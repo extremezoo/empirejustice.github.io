@@ -10,6 +10,8 @@
     <link type="text/css" rel="stylesheet" href="css/base.css">
     <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/stage.css">
+    <link type="text/css" rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link href="images/favicon.ico" rel="icon">
 </head>
 <body>
 	<div class="nav_bar noSelect">
@@ -20,18 +22,44 @@
 		</div>
 		<div class="page_title">
 	        <ul class="header_menu">
-                <li>Stage 5 <span class="down_arrow">&#9660;</span>
-                    <ul>
+                <li><a id="menu-1" data-dropdown="drop1" class="button dropdown">Stage 5</a>
+                    <ul class="list-1">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="stage1.html">Behind on payments (Stage 1)</a></li>
-                        <li><a href="stage2.html">90-day notice (Stage 2)</a></li>
-                        <li><a href="stage3.html">I received a <b>Demand Letter</b> (Stage 3)</a></li>
-                        <li><a href="stage4.html">I received a <b>Summons and Complaint</b> documents (Stage 4)</a></li>
-                        <li><a href="stage5.html">I want to file an <b>Answer</b> or a <b>Notice of Appearance</b> (Stage 5)</a></li>
-                        <li><a href="stage6.html"><b>The Settlement Conference</b> (Stage 6)</a></li>
+                        <li><a href="stage2.html">90-Day <b>Pre-Foreclosure</b> Notice (Stage 2)</a></li>
+                        <li><a href="stage3.html"><b>The Demand Letter</b> (Stage 3)</a></li>
+                        <li><a href="stage4.html"><b>Summons & Complaint</b> notice (Stage 4)</a></li>
+                        <li class="highlight"><a href="stage5.html">File an <b>Answer</b> (Stage 5)</a></li>
+                        <li><a href="stage6.html">Attend the<b> Settlement Conference</b> (Stage 6)</a></li>
                         <li><a href="stage7a.html">Successful <b>Settlement Conference</b> (Stage 7A)</a></li>
                         <li><a href="stage7b.html">Unsuccessful <b>Settlement Conference</b> (Stage 7B)</a></li>
                         <li><a href="stage8.html"><b>Post Judgement</b> (Stage 8)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="header_menu">
+                <li>
+                    <a id="menu-2" href="#" data-dropdown="drop1" class="button dropdown">Documents</a>
+                    <ul class="list-2">
+                        <li><a href="documents/prefc.html">90-Day Pre-Foreclosure Notice (Stage 2)</a></li>
+                        <li><a href="documents/demand.html">Demand Letter (Stage 3)</a></li>
+                        <li><a href="documents/summons.html">Summons (Stage 4)</a></li>
+                        <li><a href="documents/complaint.html">Complaint (Stage 4)</a></li>
+                        <li class="highlight"><a href="documents/answer.html">Filing an Answer (Stage 5)</a></li>
+                        <li class="highlight"><a href="documents/appearance.html">Filing Notice of Appearance (Stage 5)</a></li>
+                        <li><a href="documents/settlement.html">Settlement Conference (Stage 6)</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="header_menu">
+                <li>
+                    <a id="menu-3" data-dropdown="drop1" class="button dropdown">Resources</a></button>
+                    <ul class="list-3">
+                        
+                        <li><a href="http://www.consumerfinance.gov/find-a-housing-counselor/">Housing Counselor</a></li>
+                        <li><a href="terminology.html">Important Terms</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
                     </ul>
                 </li>
             </ul>
@@ -42,13 +70,21 @@
         
         <div class="stage_title container">
             <h3>Notice of Appearance and Answer</h3>
+            <div class="stage-nav">
+                <a href="stage4.html" class="button"><i class="fi-arrow-left"></i> &nbsp; Stage 4</a>
+                <a href="stage6.html" class="button">Stage 6 &nbsp; <i class="fi-arrow-right"></i></a>
+            </div>
+            <br><br>
+            <div>
+                Search this Page: <input id="search_stage" type="text" placeholder="Search...">
+            </div>
         </div>
 
         <div class="stage_info">
             
             <div class="stage_container c1">
                 
-                <h3>What is a notice of appearance?</h3>
+                <h3>What is a Notice of Appearance?</h3>
                 <div>
                    The notice of appearance is filed in a circumstance where you have no way to contest against the foreclosure, however you still want to be served with all of the legal papers during the foreclosure case. You must file the notice of appearance and also sent a copy to your lender’s attorney.
                 </div>
@@ -77,7 +113,7 @@
                 
                 <h3>When should I file an Answer?</h3>
                 <div>
-                   On the first page of the summons from the lender’s attorney, you should see that it says you need to file an answer to the complaint within 35 days after you receive the summons. After you send the answer to the court, keep a copy in a safe place as proof that you did send it. Also make sure to mail a copy to your lender’s attorney. 
+                   On the first page of the summons from the lender’s attorney, you should see that it says you need to file an answer to the complaint within <b>35 days</b> after you receive the summons. After you send the answer to the court, keep a copy in a safe place as proof that you did send it. Also make sure to mail a copy to your lender’s attorney. 
                 </div>
             
             </div>
@@ -85,9 +121,8 @@
             <div class="stage_container c5">
             	<h3> Associated Documents </h3>
             	<div>
-            	Notice of Appearance Form<br>
-            	Answer Form
-            	     
+            	<a href="documents/appearance.html">Notice of Appearance Form</a><br>
+            	<a href="documents/answer.html">Filing an Answer</a>   
             	</div>
             </div>
 

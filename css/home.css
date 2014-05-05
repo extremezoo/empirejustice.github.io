@@ -4,8 +4,7 @@ a{
 .welcome h3{
 	text-align: center;
 	margin-bottom: 8px;
-	text-decoration: underline;
-	color: #00B5AB;
+	color: #57828B;
 }
 .message p{
 	margin-top: 6px;
@@ -15,14 +14,14 @@ a{
 }
 .home_menu > li{
 	padding:10px 0 10px 0;
-	border-left:2px #2ABCB9 solid;
-	border-right:2px #2ABCB9 solid;
+	border-left:2px #76A2A1 solid;
+	border-right:2px #76A2A1 solid;
 	margin-bottom:2px;
 	background: #2ABCB9;
-	background: -moz-linear-gradient(bottom, #2ABCB9, #30A8A2);
-	background: -ms-linear-gradient(bottom, #2ABCB9, #30A8A2);
-	background: -webkit-linear-gradient(bottom, #2ABCB9, #30A8A2);
-	background: -o-linear-gradient(bottom, #2ABCB9, #30A8A2);
+	background: -moz-linear-gradient(bottom, #78A0AB, #57828B);
+	background: -ms-linear-gradient(bottom, #78A0AB, #57828B);
+	background: -webkit-linear-gradient(bottom, #78A0AB, #57828B);
+	background: -o-linear-gradient(bottom, #78A0AB, #57828B);
 	text-align: center;
 	font-size: 1.25em;
 	color:#fff;
@@ -50,8 +49,8 @@ a{
     padding:6px 12px 6px 12px; 
 }
 li.first{
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
 }
 li.last{
 	background: #F76C88;
@@ -61,6 +60,15 @@ li.last{
 	background: -o-linear-gradient(bottom, #F45A86, #F4336A);
 	border-left:1px #F4336A solid;
 	border-right:1px #F4336A solid;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.menu_dropdown{
+	background:none !important;
+	font-size:1.05em;
+	padding-top:0;
+	padding-bottom:0;
+}
+.center{
+	text-align: center;
 }

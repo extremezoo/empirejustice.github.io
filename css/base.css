@@ -15,7 +15,6 @@ ul{
 }
 ul li{
 	cursor: default;
-	padding-left: 1em;
 }
 li a{
     display:block;
@@ -26,6 +25,7 @@ div{
 	box-sizing:border-box;
 }
 a{
+	color:#007BA0;
 	cursor: pointer;
     text-decoration:none;
 }
@@ -33,12 +33,13 @@ a:hover{
 	text-decoration: underline;
 }
 .color_link{
-	color: #15A5A0;
+	color: #007BA0;
+	text-decoration: underline;
 }
 .container{
-	border:1px #2ABCB9 solid;
+	border:2px #94B5BC solid;
 	padding:10px;
-	border-radius: 10px;
+	border-radius: 6px;
 	background: #fff;
 }
 .main{
@@ -46,8 +47,34 @@ a:hover{
 	max-width: 800px;
 	margin: 0 auto;
     overflow:hidden;
+    position: relative;
+    top:10px;
 }
-.linksul{
-	text-decoration:underline;
-	color:blue !important;
+.ques_info{
+	position: absolute;
+	border:1px lightgray solid;
+	background: #fff;
+	padding:5px;
+	margin:2px;
+	display: none;
+}
+.document{
+	margin-top:10px;
+	text-align: center;
+	clear:both;
+}
+.document img{
+	border:1px lightgray solid;
+}
+.down_btn{
+	margin: 0 100px 0 100px;
+	margin-top:10px;
+}
+.highlight{
+	background: rgb(235, 240, 240);
+	border-bottom: 1px lightgray solid;
+	border-top: 1px lightgray solid;
+}
+.about_img{
+	float:right; height:150px; border-radius:4px;
 }
