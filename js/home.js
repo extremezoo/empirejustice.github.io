@@ -18,6 +18,7 @@ $(document).ready(function(){
                     {
                         $(this).addClass("visible");
                         $(this).removeClass("remove");
+
                     }
 
                 });
