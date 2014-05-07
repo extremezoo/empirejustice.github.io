@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+    $(".nav_bar .fi-home").hover(function(){
+        $(".ejc_logo").addClass("logo-hover");
+    });
+    $(".nav_bar .fi-home").on("mouseout", function(){
+        $(".ejc_logo").removeClass("logo-hover");
+    });
+
     $("#search_stage").on("keyup", function(){
 
         $query = $("#search_stage").val().toLowerCase();

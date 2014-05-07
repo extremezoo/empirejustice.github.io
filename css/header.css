@@ -27,6 +27,9 @@
 .logo a img:hover{
 	box-shadow: 0 0 7px 1px #F76C88;
 }
+.logo-hover{
+	box-shadow: 0 0 7px 1px #F76C88;
+}
 .page_title{
 	height: 100%;
 	display: table-cell;
