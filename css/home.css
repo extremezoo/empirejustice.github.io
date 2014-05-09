@@ -14,8 +14,6 @@ a{
 }
 .home_menu > li{
 	padding:10px 0 10px 0;
-	border-left:2px #76A2A1 solid;
-	border-right:2px #76A2A1 solid;
 	margin-bottom:2px;
 	background: #2ABCB9;
 	background: -moz-linear-gradient(bottom, #78A0AB, #57828B);
@@ -31,6 +29,8 @@ a{
 	display: none;
 	color:#404040;
 	font-size: .8em;
+	border-left:1px #78A0AB solid;
+	border-right:1px #78A0AB solid;
 }
 .home_menu > li > ul > li{
 	background: rgb(250, 250, 250);
@@ -58,10 +58,12 @@ li.last{
 	background: -ms-linear-gradient(bottom, #F45A86, #F4336A);
 	background: -webkit-linear-gradient(bottom, #F45A86, #F4336A);
 	background: -o-linear-gradient(bottom, #F45A86, #F4336A);
-	border-left:1px #F4336A solid;
-	border-right:1px #F4336A solid;
 	border-bottom-left-radius: 6px;
 	border-bottom-right-radius: 6px;
+}
+li.last ul{
+	border-left: 1px #F76C88 solid;
+	border-right: 1px #F76C88 solid;
 }
 .menu_dropdown{
 	background:none !important;
