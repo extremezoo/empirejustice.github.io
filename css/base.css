@@ -70,11 +70,6 @@ a:hover{
 	margin: 0 100px 0 100px;
 	margin-top:10px;
 }
-.highlight{
-	background: rgb(235, 240, 240);
-	border-bottom: 1px lightgray solid;
-	border-top: 1px lightgray solid;
-}
 .about_img{
 	float:right; height:150px; border-radius:4px;
 }
