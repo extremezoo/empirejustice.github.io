@@ -110,3 +110,18 @@
 .remove{
     display: none;
 }
+.search_area{
+    position: relative;
+}
+.stage_title .fi-magnifying-glass{
+    background: #78A0AB;
+    padding:7px 12px;
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    right:0;
+    cursor: pointer;
+}
+.stage_title .fi-magnifying-glass:hover{
+    background: rgb(130, 150, 160);
+}
