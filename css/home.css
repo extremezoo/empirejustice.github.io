@@ -32,6 +32,9 @@ a{
 	border-left:1px #78A0AB solid;
 	border-right:1px #78A0AB solid;
 }
+.home_menu > li > a{
+	color:#fff;
+}
 .home_menu > li > ul > li{
 	background: rgb(250, 250, 250);
 	text-align: left;
