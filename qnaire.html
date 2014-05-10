@@ -75,18 +75,21 @@
 	<div class="main">
         
         <div class="stage_title container">
-            <h3>What stage am I at?</h3>
+            <h3>Where am I in the Foreclosure process?</h3>
         </div>
 
         <div class="stage_container c1">
             Answer few simple questions below so we can determine what stage you are at
         </div>
 
-        <div class="stage_container c2">
-            <h3>Have you received the 90-Day Pre-foreclosure Notice?</h3>
-            <div class="">
-                <button>Yes</button>
-                <button>No</button>
+        <div class="stage_container c2 qnaire">
+            <h3 id="question">Have you received the 90-Day Pre-foreclosure Notice?</h3>
+            <div class="qnaire-back">
+                <button><i class="fi-arrow-left"></i> Go Back</button>
+            </div>
+            <div class="qnaire-opts">
+                <button class="y">Yes</button>
+                <button class="n">No</button>
             </div>
         </div>
 
@@ -97,5 +100,6 @@
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
     <script type="text/javascript" src="js/timeline.js"></script>
+    <script type="text/javascript" src="js/qnaire.js"></script>
 </body>
 </html>

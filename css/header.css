@@ -1,7 +1,7 @@
 .nav_bar{
 	position: relative;
 	background: #fff;
-	padding: 5px 10px 5px 10px;
+	padding: 4px 10px;
 	width:100%;
 	display: table;
 	box-shadow: 0 0 8px 1px rgb(190, 190, 190);
@@ -64,6 +64,9 @@
     font-weight:bold;
     float:left;
     z-index: 10;
+}
+.header_menu > li > a{
+	border-radius: 4px;
 }
 .header_menu > li > ul{
     position:absolute;
