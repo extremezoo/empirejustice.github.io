@@ -42,14 +42,34 @@ $(document).ready(function(){
 
 		$a = $(this).attr("class");
 
-			if($a == "y")
+		if($a == "y" && $q != 6)
+		{
+			if($q != 6)
 			{
 				window.location.href = "qnaire.html?q="+$next;
 			}
-			else if($a == "n")
+			else if($q == 6)
 			{
 				//end
 			}
+		}
+		else if($a == "n")
+		{
+			$(".qnaire").fadeOut(100, function(){
+
+				
+
+			});
+
+			if($q==1)
+			{
+
+			}
+			else if($q==2)
+			{
+
+			}
+		}
 
 	});
 
