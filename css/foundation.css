@@ -2758,7 +2758,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875rem;
-  margin: 0 0 1rem 0;
+  margin-top:0.3rem;
   padding: 0.5rem;
   height: 2.3125rem;
   width: 100%;

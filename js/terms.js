@@ -60,18 +60,23 @@ $(document).ready(function(){
  	});
 
 	$(".show_all_btn").on("click", function(){
-		$("dt").each(function(){
-			$(this).next().stop().slideToggle(200);
- 			$(this).toggleClass("dt-border");
- 			$(this).next().toggleClass("dd-border");
-		});
 
 		if($(this).text() == "Show all")
 		{
-			$(this).text("Hide all");
+			$("dt").each(function(){
+                $(this).next().stop().slideDown(200);
+                $(this).addClass("dt-border");
+                $(this).next().addClass("dd-border");
+            });
+            $(this).text("Hide all");
 		}
 		else if($(this).text() == "Hide all")
 		{
+            $("dt").each(function(){
+                $(this).next().stop().slideUp(200);
+                $(this).removeClass("dt-border");
+                $(this).next().removeClass("dd-border");
+            });
 			$(this).text("Show all");
 		}
 	});

@@ -40,7 +40,7 @@
 }
 .c4{
     float:left;
-    border: 4px #CAC9F2 solid;
+    border: 4px #DFBFBF solid;
     margin-top:10px;
 }
 .c5{
@@ -75,6 +75,24 @@
     margin-top:10px;
 }
 
+.c11{
+    float:left;
+    border: 4px #FFB9D5 solid;
+    margin-top:10px;
+}
+
+.c12{
+    float:left;
+    border: 4px #FFD1A4 solid;
+    margin-top:10px;
+}
+
+.c13{
+    float:left;
+    border: 4px #DFBFBF solid;
+    margin-top:10px;
+}
+
 #faqNav{
     padding:15px;
     border: 4px #c5d4b8 solid;
@@ -91,4 +109,30 @@
 }
 .remove{
     display: none;
+}
+.search_area{
+    position: relative;
+}
+.stage_title .fi-magnifying-glass{
+    background: #78A0AB;
+    padding:7px 12px;
+    color: #fff;
+    position: absolute;
+    bottom:0;
+    right:0;
+    cursor: pointer;
+}
+.stage_title .fi-magnifying-glass:hover{
+    background: rgb(130, 150, 160);
+}
+
+.qnaire-back{
+    float:left;
+}
+.qnaire-opts{
+    //border:1px red solid;
+    float:right;
+}
+.qnaire-opts button{
+    padding:4px 20px;
 }
