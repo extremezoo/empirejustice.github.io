@@ -30,7 +30,7 @@ $(document).ready(function(){
 	else if($q==4)
 	{
 		$("#question").html("Have you filed an Answer or the Notice of Appearance?");
-		//$(".qnaire-opts").append("<button class='never'>I\'m not going to</button>");
+		$(".qnaire-opts").append("<button class='never'>I\'m not going to</button>");
 	}
 	else if($q==5)
 	{
@@ -122,10 +122,10 @@ $(document).ready(function(){
 			});
 			
 		}
-		/*else if($a == "never")
+		else if($a == "never")
 		{
 			window.location.href = "qnaire.html?q=5";
-		}*/
+		}
 
 	});
 
