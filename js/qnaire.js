@@ -3,6 +3,12 @@ $(document).ready(function(){
 	$query = window.location.href.slice(window.location.href.indexOf("?") + 1);
 	$query = $query.split("=");
 	$q = $query[1];
+
+	if($q == null)
+	{
+		window.location.href = "qnaire.html?q=1";
+	}
+
 	$next = parseInt($q)+1;
 	$prev = parseInt($q)-1;
 
@@ -24,6 +30,7 @@ $(document).ready(function(){
 	else if($q==4)
 	{
 		$("#question").html("Have you filed an Answer or the Notice of Appearance?");
+		//$(".qnaire-opts").append("<button class='never'>I\'m not going to</button>");
 	}
 	else if($q==5)
 	{
@@ -42,7 +49,7 @@ $(document).ready(function(){
 
 		$a = $(this).attr("class");
 
-		if($a == "y" && $q != 6)
+		if($a == "y")
 		{
 			if($q != 6)
 			{
@@ -50,7 +57,19 @@ $(document).ready(function(){
 			}
 			else if($q == 6)
 			{
-				//end
+				$(".qnaire").fadeOut(150, function(){
+
+					$(".qnaire-back").hide();
+					$(".qnaire-opts").hide();
+					$(this).append("<div class='reason'></div>");
+
+					$("#question").html("You are currently at Stage 7A");
+					$(".reason").text("If you successfully worked out a deal with the bank, you are at Stage 7A");
+					$(".reason").append("<br><br><a href='stage7a.html'>Click here to learn more about Stage 7A</a>");
+
+					$(this).fadeIn(200);
+
+				});
 			}
 		}
 		else if($a == "n")
@@ -63,53 +82,55 @@ $(document).ready(function(){
 
 				if($q==1)
 				{
-					$("#question").html("You are currently on Stage 1");
-					$(".reason").text("If you have not received the 90-Day Pre-Foreclosure notice yet, then you have recently fallen behind on mortgage payments.");
-					$(".reason").append("<br><br><a href='stage1.html'>Click here to learn more about Stage 1 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 1");
+					$(".reason").text("If you have not received the 90-Day Pre-Foreclosure notice yet after falling behind on mortgage payments, you are at Stage 1 of the foreclosure process.");
+					$(".reason").append("<br><br><a href='stage1.html'>Click here to learn more about Stage 1 and the options you have</a>");
 				}
 				else if($q==2)
 				{
-					$("#question").html("You are currently on Stage 2");
-					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
-					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet after receiving the 90-Day Pre-foreclosure notice, you are at stage 2 of the foreclosure process.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and the options you have</a>");
 				}
-				//work here
 				else if($q==3)
 				{
-					$("#question").html("You are currently on Stage 2");
-					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
-					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 3");
+					$(".reason").text("If you have not received the Summons and Complaint notice yet after receiving the Demand Letter, you are at stage 3 of the foreclosure process.");
+					$(".reason").append("<br><br><a href='stage3.html'>Click here to learn more about Stage 3 and the options you have</a>");
 				}
 				else if($q==4)
 				{
-					$("#question").html("You are currently on Stage 2");
-					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
-					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 4");
+					$(".reason").text("If you have not filed an Answer or the Notice of Appearance after receiving the Summons and Complaint notice, you are at stage 4 of the foreclosure process and should consider filing an Answer or the Notice of Appearance.");
+					$(".reason").append("<br><br><a href='stage4.html'>Click here to learn more about Stage 4 and the options you have</a><br><a href='stage5.html'>Click here to learn more about filing an Answer of the Notice of Appearance (Stage 5)</a>");
 				}
 				else if($q==5)
 				{
-					$("#question").html("You are currently on Stage 2");
-					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
-					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 6");
+					$(".reason").text("If you did not attend the Settlement Conference yet, you should consider attending it.");
+					$(".reason").append("<br><br><a href='stage6.html'>Click here to learn more about the Settlement Conference and the options you have (Stage 6)</a>");
 				}
 				else if($q==6)
 				{
-					$("#question").html("You are currently on Stage 2");
-					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
-					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+					$("#question").html("You are currently at Stage 7B");
+					$(".reason").text("If you could not work out a deal with the bank, you are at Stage 7B");
+					$(".reason").append("<br><br><a href='stage7b.html'>Click here to learn more about Stage 7B</a>");
 				}
-
 
 				$(this).fadeIn(200);
 
 			});
 			
 		}
+		else if($a == "never")
+		{
+			window.location.href = "qnaire.html?q=5";
+		}
 
 	});
 
-	$(".qnaire-back").on("click", function(){
+	/*$(".qnaire-back").on("click", function(){
 		window.location.href = "qnaire.html?q="+$prev;
-	});
+	});*/
 
 });
