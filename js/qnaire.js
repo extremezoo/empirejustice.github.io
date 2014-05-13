@@ -122,15 +122,15 @@ $(document).ready(function(){
 			});
 			
 		}
-		else if($a == "never")
+		/*else if($a == "never")
 		{
 			window.location.href = "qnaire.html?q=5";
-		}
+		}*/
 
 	});
 
-	/*$(".qnaire-back").on("click", function(){
+	$(".qnaire-back").on("click", function(){
 		window.location.href = "qnaire.html?q="+$prev;
-	});*/
+	});
 
 });
