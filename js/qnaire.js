@@ -55,20 +55,55 @@ $(document).ready(function(){
 		}
 		else if($a == "n")
 		{
-			$(".qnaire").fadeOut(100, function(){
+			$(".qnaire").fadeOut(150, function(){
 
-				
+				$(".qnaire-back").hide();
+				$(".qnaire-opts").hide();
+				$(this).append("<div class='reason'></div>");
+
+				if($q==1)
+				{
+					$("#question").html("You are currently on Stage 1");
+					$(".reason").text("If you have not received the 90-Day Pre-Foreclosure notice yet, then you have recently fallen behind on mortgage payments.");
+					$(".reason").append("<br><br><a href='stage1.html'>Click here to learn more about Stage 1 and to know what you should do at this point</a>");
+				}
+				else if($q==2)
+				{
+					$("#question").html("You are currently on Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+				}
+				//work here
+				else if($q==3)
+				{
+					$("#question").html("You are currently on Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+				}
+				else if($q==4)
+				{
+					$("#question").html("You are currently on Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+				}
+				else if($q==5)
+				{
+					$("#question").html("You are currently on Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+				}
+				else if($q==6)
+				{
+					$("#question").html("You are currently on Stage 2");
+					$(".reason").text("If you have not received the Demand Letter yet, then you have only received the 90-Day Pre-foreclosure notice.");
+					$(".reason").append("<br><br><a href='stage2.html'>Click here to learn more about Stage 2 and to know what you should do at this point</a>");
+				}
+
+
+				$(this).fadeIn(200);
 
 			});
-
-			if($q==1)
-			{
-
-			}
-			else if($q==2)
-			{
-
-			}
+			
 		}
 
 	});

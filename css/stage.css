@@ -104,6 +104,9 @@
 .stage-nav{
     float:right;
 }
+.stage-nav a{
+    z-index:10;
+}
 .visible{
     display: block;
 }
