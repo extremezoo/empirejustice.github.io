@@ -73,3 +73,52 @@ a:hover{
 .about_img{
 	float:right; height:150px; border-radius:4px;
 }
+.contributor-title{
+    margin-bottom:1em;
+}
+.contributor-container{
+    margin-bottom:1em;
+    margin-top:1em;
+    float: left;
+}
+.contributor-container>img{
+    float:left;
+    max-width:35%;
+    margin-right:2%;
+}
+.contributor-container>p{
+    width:63%;
+    float: right
+}
+.contributor-container>h4{
+    width:63%;
+    float:left;
+    font-size:1.22em;
+}
+.contributor-container>.about-img-container{
+    hieght:200px;
+}
+@media (max-width: 600px){
+.contributor-container{
+    margin-bottom:1em;
+    margin-top:1em;
+    float: left;
+}
+.contributor-container>img{
+   max-width: 100%;
+    margin: auto;
+    margin-bottom: 1em;
+    display: block;
+    float: none;
+}
+.contributor-container>p{
+    width:100%;
+    float: none;
+}
+.contributor-container>h4{
+    width:100%;
+    float:none;
+    margin-bottom: 1em;
+    font-size:1.22em;
+}
+}
