@@ -1,4 +1,4 @@
-# How to contribute
+# How to Contribute
 
 We're always looking for new ideas and help with writing code.
 We want to keep it as easy as possible to contribute changes that
