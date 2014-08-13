@@ -1,0 +1,8 @@
+# Foreclosure Guide
+This guide is designed to empower you with knowledge of the mortgage foreclosure process so you can do your best to prevent the loss of your home through foreclosure. This tool provides you with information about the process and guides you through the steps you must take to defend yourself. Although this guide can help you understand much of the process and the steps you need to take to defend yourself, we recommend finding a housing counselor or lawyer to personally help you and tell you more about your options. There is a link under the "Resources" menu to help you find such assistance. Most legitimate housing counselors will assist you free of charge. If you use the Resources tab, this will direct you to a credible counselor.
+
+## How to Use This Guide
+Click on the "At What Stage Am I in the Foreclosure Process?" menu to understand where you are in the process. You can typically identify how far along you have come in the process by identifying and reviewing the most recent document you have received or the most recent event that has occurred. Use this link to find where you are in the process, and then click on the “Step-by-Step Guidance in the Foreclosure Process” tab to help you understand what you should do next, what documents you can expect to receive, and what documents you might need to prepare.
+
+###### DISCLAIMER:
+ >This site is provided for general informational purposes only. It should not be construed as legal advice and is not intended to be a substitute for legal counsel. Persons requiring legal advice should retain a properly licensed lawyer. No attorney-client relationship will be formed based on use of this site and any comments or posts to this site will not be privileged or confidential.
