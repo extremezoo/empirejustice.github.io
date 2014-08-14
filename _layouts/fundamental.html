@@ -5,12 +5,23 @@
 {% include head.html %}
 
 <body>
-    {% include navigation.html %}
+
+    {% if page.category == "guide" %}
+        {% include navigation-guide.html %}
+    {% elsif page.category == "resource" %}
+        {% include navigation-resource.html %}
+    {% elsif page.category == "document" %}
+        {% include navigation-document.html %}
+    {% endif %}
+
 
         {{ content }}
 
+    {% if page.category != "document" %}
+        {% include footer.html %}
+    {% endif %}
 
-    {% include footer.html %}
+    {% include after-footer.html %}
  
 </body>
 
