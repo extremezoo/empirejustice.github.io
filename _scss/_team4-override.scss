@@ -6,7 +6,7 @@ body,html{
 
 
 //Configures buttons and dropdown
-.dropdown, .button{
+.dropdown, .button, button{
     padding-top: .4rem;
     padding-right: .6rem;
     padding-left: .6rem;
@@ -31,4 +31,10 @@ body,html{
 }
 
 // Adjusts size of search button icons
-.foundicon-search{padding: 6px 12px !important;}
+.search_area{
+    .foundicon-search{padding: 5px 12px !important;}
+}
+
+.stage-nav{
+    margin-bottom:5px;
+}
