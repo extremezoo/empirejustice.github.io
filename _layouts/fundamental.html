@@ -15,12 +15,20 @@
     {% endif %}
 
 
+{% comment %}
+    {% if page.category == "guide" %}
+        {% include test/navigation-guide.html %}
+    {% elsif page.category == "resource" %}
+        {% include navigation-resource.html %}
+    {% elsif page.category == "document" %}
+        {% include navigation-document.html %}
+    {% endif %}
+{% endcomment %}
+
         {{ content }}
 
-    {% if page.category != "document" %}
-        {% include footer.html %}
-    {% endif %}
 
+    {% include footer.html %}
     {% include after-footer.html %}
  
 </body>

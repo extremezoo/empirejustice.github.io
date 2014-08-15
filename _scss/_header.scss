@@ -5,7 +5,7 @@
 	width:100%;
 	display: table;
 	box-shadow: 0 0 8px 1px rgb(190, 190, 190);
-	border-bottom:1px #F76C88 solid;
+	border-bottom:1px $secondary-color solid;
 	z-index: 20;
 }
 
@@ -26,10 +26,10 @@
 	border-radius: 6px;
 }
 .logo a img:hover{
-	box-shadow: 0 0 7px 1px #F76C88;
+	box-shadow: 0 0 7px 1px $secondary-color;
 }
 .logo-hover{
-	box-shadow: 0 0 7px 1px #F76C88;
+	box-shadow: 0 0 7px 1px $secondary-color;
 }
 .nav_bar .foundicon-home{
 	position: absolute;
@@ -73,7 +73,7 @@
     font-weight:normal;
     margin-top:10px;
     background-color:#fff;
-    border:1px #F76C88 solid;
+    border:1px $secondary-color solid;
     font-size:.9em;
     display: none;
     z-index: 10;

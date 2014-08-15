@@ -1,0 +1,34 @@
+
+
+body,html{
+    color: $body-font-color;
+}
+
+
+//Configures buttons and dropdown
+.dropdown, .button{
+    padding-top: .4rem;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    padding-bottom: .4rem;
+    border-color: #30A8A2;
+    margin-bottom: 0px;
+}
+
+.page_title a{ margin-bottom:0px;}
+
+.header_menu{
+    margin: 0px;
+    li a{ padding-left: .6rem;}
+}
+
+.home_menu{ 
+    margin-left: 0px;
+    li > ul{
+        margin: 0;
+    }
+
+}
+
+// Adjusts size of search button icons
+.foundicon-search{padding: 6px 12px !important;}
