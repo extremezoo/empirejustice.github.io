@@ -18,7 +18,7 @@ if [ "$AUTHOR" != "Author: Travis-CI <travis@travis-ci.org>" -a "$TRAVIS_PULL_RE
   #using token clone gh-pages branch
   echo -e "Cloning repo\n"
 
-  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/empirejustice/dev.foreclosureguide.git  gh-pages > /dev/null
+  git clone --quiet --branch=gh-pages https://esteinborn:${GH_TOKEN}@github.com/empirejustice/dev.foreclosureguide.git  gh-pages > /dev/null
 
   #go into directory and copy data we're interested in to that directory
 
