@@ -13,6 +13,10 @@ body,html{
     padding-bottom: .4rem;
     border-color: #30A8A2;
     margin-bottom: 0px;
+
+    & .menu_dropdown{
+        padding:0px;
+    }
 }
 
 .page_title a{ margin-bottom:0px;}
@@ -24,8 +28,9 @@ body,html{
 
 .home_menu{ 
     margin-left: 0px;
-    li > ul{
-        margin: 0;
+    li{
+        padding: 6px 0 6px 0;
+        ul{ margin:0;}
     }
 
 }
@@ -41,5 +46,6 @@ body,html{
 
 
 .nav_bar .foundicon-home{
-    right: 7px;
+    // right: 11px;
+    font-size: .75rem;
 }
