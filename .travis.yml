@@ -4,6 +4,7 @@ node_js:
   - "0.10"
   - "0.8"
   - "0.6"
+npm test
 after_success:
 - chmod -R 777 .travis-build.sh
 - ./.travis-build.sh
