@@ -30,12 +30,17 @@ if [ "$AUTHOR" != "Author: Travis-CI <travis@travis-ci.org>" -a "$TRAVIS_PULL_RE
   # The next line came from Stack Overflow, love that site!
   # http://stackoverflow.com/a/22340057/682288
   find . -path ./.git -prune -o -exec rm -rf {} \; 2> /dev/null
+  rm cname
+  rm .travis.yml
+  rm .travis-build.sh
 
   #echo -e "Copying new files into repo\n"
   cp -Rf $HOME/dev/* .
 
   #add, commit and push files
-  git add -f .
+  git add -A -f .
+  git remote rm origin
+  git remote add origin https://esteinborn:${GH_TOKEN}@github.com/empirejustice/dev.foreclosureguide.git
   git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
   git push -fq origin gh-pages > /dev/null
 
