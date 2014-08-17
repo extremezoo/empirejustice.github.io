@@ -1,8 +1,8 @@
 
 
-body,html{
-    color: $body-font-color;
-}
+// body,html{
+//     color: $body-font-color;
+// }
 
 
 //Configures buttons and dropdown
@@ -50,8 +50,6 @@ body,html{
     bottom: -6px;
 }
 
-.padding{
-    // @media #{$small} {
-        padding:10px;
-    // }
-}
+.padding-10{padding:10px;}
+
+.margin-10{margin:10px;}
