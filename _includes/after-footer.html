@@ -1,10 +1,14 @@
-
+<!-- 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+ -->
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <script type="text/javascript" src="js/foundation.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 <script type="text/javascript" src="js/checklist.js"></script>
 <script type="text/javascript" src="js/terms.js"></script>
+{% if page.path == 'qnaire.html' %}
+    <script type="text/javascript" src="js/qnaire.js"></script>
+{% endif %}
 
 <script>
     $(document).foundation();
