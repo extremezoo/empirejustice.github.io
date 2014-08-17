@@ -36,16 +36,22 @@ body,html{
 }
 
 // Adjusts size of search button icons
-.search_area{
-    .foundicon-search{padding: 5px 12px !important;}
-}
+// .search_area{
+//     .foundicon-search{padding: 5px 12px !important;}
+// }
 
-.stage-nav{
-    margin-bottom:5px;
-}
+// .stage-nav{
+//     margin-bottom:5px;
+// }
 
 
 .nav_bar .foundicon-home{
     font-size: .75rem;
     bottom: -6px;
+}
+
+.padding{
+    // @media #{$small} {
+        padding:10px;
+    // }
 }

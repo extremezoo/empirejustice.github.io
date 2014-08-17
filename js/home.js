@@ -38,6 +38,7 @@ $(document).ready(function(){
 
             });
         }else{
+            
             $(".stage_container div").each(function(){
                 $(this).addClass("visible");
                 $(this).removeClass("remove");
