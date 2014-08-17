@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    // $(".nav_bar .fi-home").hover(function(){
+    // $(".nav_bar .foundicon-home").hover(function(){
     //     $(".ejc_logo").addClass("logo-hover");
     // });
-    // $(".nav_bar .fi-home").on("mouseout", function(){
+    // $(".nav_bar .foundicon-home").on("mouseout", function(){
     //     $(".ejc_logo").removeClass("logo-hover");
     // });
 
@@ -12,7 +12,7 @@ $(document).ready(function(){
         $query = $("#search_stage").val().toLowerCase();
         if($query != ""){
 
-            $(".stage_container").each(function(){
+            $(".container").each(function(){
                 // $("div", this).each(function(){
 
                     if($(this).text().toLowerCase().indexOf($query) == -1){
@@ -38,11 +38,12 @@ $(document).ready(function(){
 
             });
         }else{
-            $(".stage_container div").each(function(){
+            
+            $(".container div").each(function(){
                 $(this).addClass("visible");
                 $(this).removeClass("remove");
             });
-            $(".stage_container").each(function(){
+            $(".container").each(function(){
                 $(this).removeClass("remove");
                 $(this).addClass("visible");
             });

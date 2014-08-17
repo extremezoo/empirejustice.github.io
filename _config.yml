@@ -12,7 +12,7 @@ css:
 
 exclude: ["bower_components","foundation"]
 
-paginate: 5
+
 # http_path = "/"
 # css_dir: "css"
 # sass_dir = "scss"

@@ -3,6 +3,8 @@ $body-bg: #F2F2F2;
 $primary-color: #78A0AB;
 $secondary-color: #F76C88;
 
+$container-bg: #fff;
+
 $button-function-factor: -25%;
 // $body-font-color: #303030;
 $header-font-color: #303030;
@@ -12,7 +14,10 @@ $paragraph-line-height: 1.4;
 $row-width: rem-calc(800);
 
 
-///////TOP-BAR//////
+$table-even-row-bg: #F0F0F0; 
+$table-border-color: #94B5BC;
+
+///////TOP-BAR FOUNDATION//////
 $topbar-bg-color: white;
 $topbar-height: 60px;
 $topbar-button-top: 11px;
