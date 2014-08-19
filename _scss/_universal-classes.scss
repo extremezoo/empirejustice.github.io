@@ -2,12 +2,6 @@
 @mixin border-color($color){border:4px $color solid;}
 
 
-a{
-    color: #404040;
-    &:hover{text-decoration: underline;}
-}
-
-
 .panel{
     border-radius: 6px;
     border-color:$main-border-color;
