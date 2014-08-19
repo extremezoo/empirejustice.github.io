@@ -6,6 +6,8 @@
 dl.accordion{
     dd.accordion-navigation{
 
+        padding-bottom:10px;
+
         .strip-side-padding{
             padding-left:0px;
             padding-right:0px;
@@ -55,6 +57,7 @@ dl.accordion{
             }
         }
         .content{
+            margin-top: 10px;
             border-left: solid 1px $primary-color;
             border-right: solid 1px $primary-color;
             background:white;
