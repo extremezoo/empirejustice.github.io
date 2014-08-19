@@ -30,8 +30,10 @@ if [ "$AUTHOR" != "Author: Travis-CI <travis@travis-ci.org>" -a "$TRAVIS_PULL_RE
   # http://stackoverflow.com/a/22340057/682288
   find . -path ./.git -prune -o -exec rm -rf {} \; 2> /dev/null
   
-  #echo -e "Copying new files into repo\n"
+  echo -e "Copying new files into repo\n"
   cp -Rf $HOME/dev/* .
+  
+  rm cname
 
   #add, commit and push files
   git add -A -f .
