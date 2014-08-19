@@ -11,6 +11,11 @@
 }
 // .message p{margin-top: 6px;}
 
+.home_menu li a{
+    color: #404040;
+    text-decoration: none;
+    &:hover{text-decoration: underline;}
+}
 .home_menu{margin-top: 10px;}
 
 .home_menu > li{
