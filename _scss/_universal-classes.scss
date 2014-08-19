@@ -2,18 +2,15 @@
 @mixin border-color($color){border:4px $color solid;}
 
 
-a:hover{text-decoration: underline;}
+a{
+    color: #404040;
+    &:hover{text-decoration: underline;}
+}
 
 
-.container{
-    border:2px $main-border-color solid;
+.panel{
     border-radius: 6px;
-    background: $container-bg;
-    margin-top:10px;
-    img{
-        padding-top: 5px;
-        padding-bottom:5px;
-    }
+    border-color:$main-border-color;
 }
 
 //Configures buttons and dropdown
