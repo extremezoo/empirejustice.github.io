@@ -26,6 +26,19 @@ $row-width: rem-calc(800);
 $table-even-row-bg: #F0F0F0; 
 $table-border-color: $main-border-color;
 
+
+$panel-bg: $container-bg;
+$panel-border-style: solid;
+$panel-border-size: 4px;
+
+// $panel-border-color: $main-border-color;
+// $panel-padding: rem-calc(20);
+
+// $panel-font-color: #333;
+// $panel-font-color-alt: #fff;
+
+
+
 ///////TOP-BAR FOUNDATION//////
 $topbar-bg-color: white;
 $topbar-height: 60px;
