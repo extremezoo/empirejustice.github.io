@@ -33,8 +33,7 @@ if [ "$AUTHOR" != "Author: Travis-CI <travis@travis-ci.org>" -a "$TRAVIS_PULL_RE
   echo -e "Copying new files into repo\n"
   cp -Rf $HOME/dev/* .
   
-  #rm cname
-  ls -a
+  rm CNAME
 
   #add, commit and push files
   git add -A -f .
