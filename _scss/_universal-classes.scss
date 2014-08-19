@@ -1,0 +1,47 @@
+
+@mixin border-color($color){border:4px $color solid;}
+
+
+a{
+    color: #404040;
+    &:hover{text-decoration: underline;}
+}
+
+
+.panel{
+    border-radius: 6px;
+    border-color:$main-border-color;
+}
+
+//Configures buttons and dropdown
+.dropdown, .button, button{
+    padding-top: .4rem;
+    padding-right: .6rem;
+    padding-left: .6rem;
+    padding-bottom: .4rem;
+    // border-color: #30A8A2;
+    margin-bottom: 0px;
+    & .menu_dropdown{padding:0px;}
+    &:hover{text-decoration: none;}
+}
+
+
+ul {
+  list-style-type: none;
+  & li a{display: block;}
+}
+
+
+.c1{@include border-color(#CAC9F2);}
+.c2{@include border-color(lightblue);}
+.c3{@include border-color(#9BDD9F);}
+.c4{@include border-color(#DFBFBF);}
+.c5{@include border-color(lightpink);}
+.c6{@include border-color(#f2D5d5);}
+.c7{@include border-color(#f2f2bf);}
+.c8{@include border-color(#d5f2d9);}
+.c9{@include border-color(#f2d0a9);}
+.c10{@include border-color(#cac9f2);}
+.c11{@include border-color(#FFB9D5);}
+.c12{@include border-color(#FFD1A4);}
+.c13{@include border-color(#DFBFBF);}

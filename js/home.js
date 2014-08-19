@@ -1,55 +1,49 @@
 $(document).ready(function(){
 
-    $(".nav_bar .fi-home").hover(function(){
-        $(".ejc_logo").addClass("logo-hover");
-    });
-    $(".nav_bar .fi-home").on("mouseout", function(){
-        $(".ejc_logo").removeClass("logo-hover");
-    });
+    // $(".nav_bar .foundicon-home").hover(function(){
+    //     $(".ejc_logo").addClass("logo-hover");
+    // });
+    // $(".nav_bar .foundicon-home").on("mouseout", function(){
+    //     $(".ejc_logo").removeClass("logo-hover");
+    // });
 
     $("#search_stage").on("keyup", function(){
 
         $query = $("#search_stage").val().toLowerCase();
-        if($query != "")
-        {
+        if($query != ""){
 
-            $(".stage_container").each(function(){
-                $("div", this).each(function(){
+            $(".stage_container, .faqs_container").each(function(){
+                // $("div", this).each(function(){
 
-                    if($(this).text().toLowerCase().indexOf($query) == -1)
-                    {
+                    if($(this).text().toLowerCase().indexOf($query) == -1){
                         $(this).addClass("remove");
                         $(this).removeClass("visible");
-                    }
-                    else
-                    {
+                    }else{
                         $(this).addClass("visible");
                         $(this).removeClass("remove");
-
                     }
 
-                });
+                // });
 
-                if($(this).find("div.visible").length == 0)
-                {
-                    $(this).addClass("remove");
-                    $(this).removeClass("visible");
-                }
-                else if($(this).find("div.visible").length > 0)
-                {
-                    $(this).addClass("visible");
-                    $(this).removeClass("remove");
-                }
+                // if($(this).find("div.visible").length == 0)
+                // {
+                //     $(this).addClass("remove");
+                //     $(this).removeClass("visible");
+                // }
+                // else if($(this).find("div.visible").length > 0)
+                // {
+                //     $(this).addClass("visible");
+                //     $(this).removeClass("remove");
+                // }
 
             });
-        }
-        else
-        {
-            $(".stage_container div").each(function(){
+        }else{
+            
+            $(".stage_container,faqs_container div").each(function(){
                 $(this).addClass("visible");
                 $(this).removeClass("remove");
             });
-            $(".stage_container").each(function(){
+            $(".stage_container,faqs_container").each(function(){
                 $(this).removeClass("remove");
                 $(this).addClass("visible");
             });

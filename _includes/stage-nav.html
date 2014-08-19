@@ -1,0 +1,55 @@
+
+
+
+{% for node in site.pages %}
+    {% if node.category == 'guide' and node.title == page.title  %}
+        {% assign index = forloop.index0 %} 
+        {% assign forward = index | plus:1  %}
+        {% assign back = index | minus:1 %}
+    {% endif %}
+{% endfor %}
+
+
+{% if page.path == "terminology.html" %}
+    {% assign searchID = "search_terms" %}
+{% else  %}
+    {% assign searchID = "search_stage" %}
+{% endif %}
+
+<div class="row panel">
+    <div class="large-8 columns">
+        <h3>{{ include.title }}</h3>
+    </div>
+
+    <div class="large-4 columns">
+        <div class="right stage-nav">
+            {% if page.path == "terminology.html" %}
+                <button class="show_all_btn">Show all</button>
+            {% endif %}
+
+            {% if site.pages[back].category == 'guide'%}
+                <a href="{{site.pages[back].path}}" class="button"><i class="foundicon-left-arrow"></i> &nbsp;{{site.pages[back].title}}</a>
+            {% endif %}
+
+            {% if site.pages[forward].category == 'guide'%}
+                <a href="{{site.pages[forward].path}}" class="button">{{site.pages[forward].title}} &nbsp;<i class="foundicon-right-arrow"></i></a>
+            {% endif %}
+        </div>
+    </div>
+    {% if include.search == 'true' %}
+    <div class="large-12 columns search_area">
+        <div class="row collapse">
+        <label for="{{ searchID }}">Search this Page:</label>
+        
+            <div class="small-10 columns">
+                <input  id="{{ searchID }}" type="text" placeholder="Search...">
+            </div>
+            <div class="small-2 columns">
+                <a href="#" class="button postfix">
+                    <i class="foundicon-search"></i>
+                </a>
+            </div>
+        </div>   
+    </div>
+    {% endif %}
+</div>

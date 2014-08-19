@@ -1,11 +1,39 @@
-
+<!-- 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+ -->
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <script type="text/javascript" src="js/foundation.js"></script>
+
 <script type="text/javascript" src="js/home.js"></script>
+
+
 <script type="text/javascript" src="js/checklist.js"></script>
+
 <script type="text/javascript" src="js/terms.js"></script>
 
+{% if page.path == 'qnaire.html' %}
+    <script type="text/javascript" src="js/qnaire.js"></script>
+{% endif %}
+
 <script>
-    $(document).foundation();
+    $(document).foundation({
+        accordion: {
+    // specify the class used for active (or open) accordion panels
+    active_class: 'active-accordian',
+    // allow multiple accordion panels to be active at the same time
+    multi_expand: false,
+    // allow accordion panels to be closed by clicking on their headers
+    // setting to false only closes accordion panels when another is opened
+    toggleable: true
+  }
+});
 </script>
+
+<script>
+$(document).ready(function(){
+    // $(".accordion").on("click", "dd", function (event) {
+    //     $("dd.active").find(".content").slideToggle("slow");
+    //     $(this).find(".content").slideToggle("slow");
+    // })
+});
+ </script>

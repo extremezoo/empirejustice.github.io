@@ -6,7 +6,9 @@
 
 // @import "foundation/functions";
 @import "foundation/settings";
-@import "override";
+@import "variables";
+
+//@import "animate.css-scss/animate.scss";
 
 
 
@@ -39,7 +41,7 @@
   // "foundation/components/split-buttons",
   // "foundation/components/sub-nav",
   // "foundation/components/switch",
-  // "foundation/components/tables",
+  "foundation/components/tables",
   // "foundation/components/tabs",
   // "foundation/components/thumbs",
   // "foundation/components/tooltips",
@@ -54,18 +56,21 @@
 
 
 @import 
-    "base",
-    "checklist",
-    "documents",
+    "universal-classes",
+    "utility-classes",
+    "pages",
+    // "base",
+    // "checklist",
+    // "documents",
     "header",
-    "home",
-    "main",
+    // "home",
+    // "main",
     // "print",
-    "stage",
-    "terms",
-    "timeline",
+    // "stage",
+    // "terms",
+    // "timeline",
     "footer";
 
-@import "team4-override"
+// @import "team4-override"
 
 
