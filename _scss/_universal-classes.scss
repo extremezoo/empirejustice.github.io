@@ -1,6 +1,9 @@
 
 @mixin border-color($color){border:4px $color solid;}
 
+.header_menu a {
+    text-underline: none;
+}
 
 .panel{
     border-radius: 6px;
