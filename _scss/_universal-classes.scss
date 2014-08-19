@@ -2,7 +2,7 @@
 @mixin border-color($color){border:4px $color solid;}
 
 .header_menu a {
-    text-underline: none;
+    text-decoration: none;
 }
 
 .panel{
