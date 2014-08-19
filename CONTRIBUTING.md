@@ -26,7 +26,7 @@ top of things.
 * Push your changes to a topic branch in your fork of the repository.
 * Submit a Pull Request to the repository in the empirejustice organization to the DEV branch. (Pull Requests made to Master will not be accepted, ever)
 * The core team looks at Pull Requests on a regular basis.
-* After feedback has been given we expect responses within two weeks. After two weeks will may close the pull request if it isn't showing any activity.
+* After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
 
 # Additional Resources
 
