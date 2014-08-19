@@ -2,10 +2,12 @@
 
 /////////HOME/////////////////////////////////////
 
-.welcome h3{
-    text-align: center;
-    margin-bottom: 8px;
-    color: #57828B;
+.welcome{
+    // text-align: center;
+    // margin-bottom: 8px;
+    border-width:2px;
+    margin-bottom:0px;
+    & h3{color: #57828B;}
 }
 // .message p{margin-top: 6px;}
 
@@ -90,7 +92,7 @@ li.last ul{
 .down_btn{margin:10px;}
 
 .document{
-    margin-top:10px;
+    // margin-top:10px;
     text-align: center;
     clear:both;
     margin-bottom:10px;
@@ -100,26 +102,6 @@ li.last ul{
 // .has-form{border-bottom: $secondary-color solid 1px;}
 /////////////END DOCUMENTS///////////////////////////
 
-
-////////////////////CHECKLIST/////////////////
-.cl_header{
-    @extend .container;
-    margin-bottom: 10px;
-}
-///////////////////END CHECKLIST///////////////
-
-
-/////////////////STAGES////////////////////////////
-
-.stage_title{
-    @extend .container;
-    @include border-color($main-border-color);
-}
-.stage-nav{
-    @media #{$large} {padding-top:8px;}
-}
-
-/////////////////END STAGES////////////////////////
 
 
 ///////////////TERMS///////////////////////////
@@ -147,14 +129,14 @@ li.last ul{
 }
 
 .side_container{
-    @extend .container;
+    // @extend .container;
     border-radius: 10px;
     text-align: center;
     & li{float: left;}
 }
 
 
-.terms_container{@extend .container;}
+// .terms_container{@extend .container;}
 
 
 .dt-border{

@@ -12,7 +12,7 @@ $(document).ready(function(){
         $query = $("#search_stage").val().toLowerCase();
         if($query != ""){
 
-            $(".container").each(function(){
+            $(".stage_container, .faqs_container").each(function(){
                 // $("div", this).each(function(){
 
                     if($(this).text().toLowerCase().indexOf($query) == -1){
@@ -39,11 +39,11 @@ $(document).ready(function(){
             });
         }else{
             
-            $(".container div").each(function(){
+            $(".stage_container,faqs_container div").each(function(){
                 $(this).addClass("visible");
                 $(this).removeClass("remove");
             });
-            $(".container").each(function(){
+            $(".stage_container,faqs_container").each(function(){
                 $(this).removeClass("remove");
                 $(this).addClass("visible");
             });
