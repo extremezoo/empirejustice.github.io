@@ -1,6 +1,13 @@
 
 @mixin border-color($color){border:4px $color solid;}
 
+@mixin linear-gradient($direction, $top-color,$bottom-color){
+    background: -moz-linear-gradient($direction, $top-color, $bottom-color);
+    background: -ms-linear-gradient($direction, $top-color, $bottom-color);
+    background: -webkit-linear-gradient($direction, $top-color, $bottom-color);
+    background: -o-linear-gradient($direction, $top-color, $bottom-color);
+}
+
 
 .panel{
     border-radius: 6px;

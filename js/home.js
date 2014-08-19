@@ -51,16 +51,16 @@ $(document).ready(function(){
 
     });
 
-	$(".home_menu li").click(function(){
+	// $(".home_menu li").click(function(){
 
-		$(this).children("ul").stop().slideToggle(300);
+	// 	$(this).children("ul").stop().slideToggle(300);
 
-	});
-	$(".header_menu li").click(function () {
+	// });
+	// $(".header_menu li").click(function () {
 
-	    $(this).children("ul").stop().slideToggle(300);
+	//     $(this).children("ul").stop().slideToggle(300);
 
-	});
+	// });
 
 	$(".ques button").on("click", function(){
 

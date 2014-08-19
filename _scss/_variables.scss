@@ -46,7 +46,20 @@ $anchor-font-color: $link-color;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 
+$accordion-navigation-padding: rem-calc(10);
+// $accordion-navigation-bg-color: $primary-color  ;
+// $accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+// $accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%);
+$accordion-navigation-font-color: white;
+$accordion-navigation-font-size: rem-calc(22);
+// $accordion-navigation-font-family: $body-font-family;
 
+// $accordion-content-padding: $column-gutter/1;
+// $accordion-content-active-bg-color: red;
+
+
+
+ 
 ///////TOP-BAR FOUNDATION//////
 $topbar-bg-color: white;
 $topbar-height: 60px;
