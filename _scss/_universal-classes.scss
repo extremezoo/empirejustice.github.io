@@ -1,12 +1,9 @@
 
 @mixin border-color($color){border:4px $color solid;}
 
-
-a{
-    color: #404040;
-    &:hover{text-decoration: underline;}
+.header_menu a {
+    text-decoration: none;
 }
-
 
 .panel{
     border-radius: 6px;
