@@ -6,7 +6,9 @@
 
 // @import "foundation/functions";
 @import "foundation/settings";
-@import "override";
+@import "variables";
+
+//@import "animate.css-scss/animate.scss";
 
 
 
@@ -54,18 +56,21 @@
 
 
 @import 
-    "base",
-    "checklist",
-    "documents",
+    "universal-classes",
+    "utility-classes",
+    "pages",
+    // "base",
+    // "checklist",
+    // "documents",
     "header",
-    "home",
-    "main",
+    // "home",
+    // "main",
     // "print",
-    "stage",
-    "terms",
-    "timeline",
+    // "stage",
+    // "terms",
+    // "timeline",
     "footer";
 
-@import "team4-override"
+// @import "team4-override"
 
 
