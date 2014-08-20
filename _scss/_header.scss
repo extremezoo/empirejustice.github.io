@@ -60,7 +60,13 @@
 .header_menu{
     margin: 0px;
     float:left;
-    li a{ padding-left: .6rem;}
+    li a{ 
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+        padding-left: .6rem;
+    }
 }
 
 .header_menu > li{

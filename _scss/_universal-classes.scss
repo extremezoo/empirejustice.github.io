@@ -1,9 +1,13 @@
 
 @mixin border-color($color){border:4px $color solid;}
 
-.header_menu a {
-    text-decoration: none;
+@mixin linear-gradient($direction, $top-color,$bottom-color){
+    background: -moz-linear-gradient($direction, $top-color, $bottom-color);
+    background: -ms-linear-gradient($direction, $top-color, $bottom-color);
+    background: -webkit-linear-gradient($direction, $top-color, $bottom-color);
+    background: -o-linear-gradient($direction, $top-color, $bottom-color);
 }
+
 
 .panel{
     border-radius: 6px;
@@ -19,7 +23,7 @@
     // border-color: #30A8A2;
     margin-bottom: 0px;
     & .menu_dropdown{padding:0px;}
-    &:hover{text-decoration: none;}
+    // &:hover{text-decoration: none;}
 }
 
 
