@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+    {% if page.category == "guide" %}
+        {% include navigation-guide.html %}
+    {% elsif page.category == "resource" %}
+        {% include navigation-resource.html %}
+    {% elsif page.category == "document" %}
+        {% include navigation-document.html %}
+    {% endif %}
+
+
+{% comment %}
+    {% if page.category == "guide" %}
+        {% include test/navigation-guide.html %}
+    {% elsif page.category == "resource" %}
+        {% include navigation-resource.html %}
+    {% elsif page.category == "document" %}
+        {% include navigation-document.html %}
+    {% endif %}
+{% endcomment %}
+
+        <div class="padding-10">
+            {{ content }}     
+        </div>
+        
+
+
+
+
+    {% include footer.html %}
+    {% include after-footer.html %}
+ 
+</body>
+
+</html>
+

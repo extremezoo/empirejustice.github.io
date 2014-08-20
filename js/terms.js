@@ -1,18 +1,22 @@
 $(document).ready(function(){
 
-	$("#search").on("keyup", function(){
+	$("#search_terms").on("keyup", function(){
+        console.log("ok");
 
-        $query = $("#search").val().toLowerCase();
+        $query = $("#search_terms").val().toLowerCase();
         if($query != "")
         {
 
-            $(".stage_container").each(function(){
+            $(".terms_container").each(function(){
+
                 $(".glossaryContent dt").each(function(){
+
 
                     if($(this).text().toLowerCase().indexOf($query) == -1)
                     {
                         $(this).addClass("remove");
                         $(this).removeClass("visible");
+
                     }
                     else
                     {
@@ -26,22 +30,25 @@ $(document).ready(function(){
                 {
                     $(this).addClass("remove");
                     $(this).removeClass("visible");
+                    console.log("is  working");
                 }
                 else if($(this).find("dt.visible").length > 0)
                 {
                     $(this).addClass("visible");
                     $(this).removeClass("remove");
+                    
                 }
 
             });
         }
         else
         {
+            console.log("is NOT working");
             $(".glossaryContent dt").each(function(){
                 $("dt").addClass("visible");
                 $("dt").removeClass("remove");
             });
-            $(".stage_container").each(function(){
+            $(".terms_container").each(function(){
                 $(this).addClass("visible");
                 $(this).removeClass("remove");
             });
