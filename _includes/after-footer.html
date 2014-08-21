@@ -26,6 +26,25 @@
     // setting to false only closes accordion panels when another is opened
     toggleable: true
   }
+  // ,
+  // dropdown: {
+  //   opened: function(){
+  //       // $(this).addClass("open");
+  //       var content = $(this);
+  //       content.slideDown("50",function(){
+  //           content.hide();
+  //       });
+
+  //       content.hide(1000).show(1000);
+
+  //   },
+  //   closed: function(){
+  //       // $(this).addClass("open");
+  //       $(this).slideUp(100);
+
+  //   }
+  // }
+
 });
 </script>
 
@@ -37,6 +56,19 @@ $(document).ready(function(){
     $(".accordion").on("click", "dd", function (event, accordion) {
         //$("dd.active").find(".content").slideToggle("slow");
         $(this).find(".content").slideToggle("300");
-    })
+    });
+
+
+
+    //   $("a.dropdown").on("click", function (event, dropdown) {
+    //     //$("dd.active").find(".content").slideToggle("slow");
+    //     // console.log($(this).siblings('ul'));
+    //     $(this).next('ul.dropdown-content').slideToggle("100");
+
+
+    //     // $(this).next('ul.f-dropdown').hide().slideDown("100");
+    // })
+
+
 });
  </script>
