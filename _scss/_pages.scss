@@ -102,8 +102,10 @@ dl.accordion{
 
 ///////////////TERMS///////////////////////////
 #glossaryNav{
-    overflow:hidden;
-    & ul li a{padding:0 10px 0 10px;}
+    padding:0;
+    margin-bottom: 0;
+    // overflow:hidden;
+    // & ul li a{padding:0 10px 0 10px;}
 }
 
 .glossaryContent{
@@ -125,10 +127,12 @@ dl.accordion{
 }
 
 .side_container{
-    // @extend .container;
     border-radius: 10px;
     text-align: center;
-    & li{float: left;}
+    padding-top:0;
+    padding-bottom:0;
+    width: auto;
+    
 }
 
 
