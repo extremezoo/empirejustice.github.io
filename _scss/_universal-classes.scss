@@ -14,23 +14,28 @@
     border-color:$main-border-color;
 }
 
-//Configures buttons and dropdown
-.dropdown, .button, button{
+//Configures buttons
+ .button, button{
     padding-top: .4rem;
     padding-right: .6rem;
     padding-left: .6rem;
     padding-bottom: .4rem;
     // border-color: #30A8A2;
-    margin-bottom: 0px;
-    & .menu_dropdown{padding:0px;}
+    // margin-bottom: 0px;
+    // & .menu_dropdown{padding:0px;}
     // &:hover{text-decoration: none;}
 }
 
 
-ul {
-  list-style-type: none;
-  & li a{display: block;}
+.underline-hover a{
+    text-decoration: none;
+    &:hover{text-decoration: underline;}
 }
+
+// ul {
+//   list-style-type: none;
+//   & li a{display: block;}
+// }
 
 
 .c1{@include border-color(#CAC9F2);}

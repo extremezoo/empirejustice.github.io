@@ -58,12 +58,31 @@ $accordion-navigation-font-size: rem-calc(22);
 // $accordion-content-active-bg-color: red;
 
 
+//Used for top position
+// $f-dropdown-margin-top: 10px;
+
+// $f-dropdown-margin-bottom: $f-dropdown-margin-top;
+
+//We use this to control the background color
+// $f-dropdown-bg: #fff;
+
+//We use this to set the border styles for dropdowns.
+$f-dropdown-border-style: solid;
+$f-dropdown-border-width: 1px;
+$f-dropdown-border-color: $secondary-color;
+$f-dropdown-font-size: rem-calc(19);
+
+$f-dropdown-triangle-side-offset: 0px;
+
+$f-dropdown-max-width: 450px;
+
+
 
  
 ///////TOP-BAR FOUNDATION//////
-$topbar-bg-color: white;
-$topbar-height: 60px;
-$topbar-button-top: 11px;
+// $topbar-bg-color: white;
+// $topbar-height: 60px;
+// $topbar-button-top: 11px;
 // $topbar-button-font-size: 1rem;
 ///////////////END FOUNDATION VARIABLES//////////////////////////////
 
