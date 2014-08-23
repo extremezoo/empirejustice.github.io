@@ -1,0 +1,142 @@
+
+<div class="nav_bar noSelect">
+
+    <ul class="inline-list">
+
+        <li>
+            <div class="logo">
+                <a href="index.html">
+                    <img alt="Logo" src="images/logo.jpg">
+                    <i class="foundicon-home"></i>
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" data-dropdown="guide" class="button radius dropdown">Dropdown Button</a><br>
+            <ul id="guide" data-dropdown-content class="f-dropdown">
+                <li><a href="#">This is a link</a></li>
+                <li><a href="#">This is another</a></li>
+                <li><a href="#">Yet another</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" data-dropdown="documents" class="button radius dropdown">Dropdown Button</a><br>
+            <ul id="documents" data-dropdown-content class="f-dropdown">
+                <li><a href="#">This is a link</a></li>
+                <li><a href="#">This is another</a></li>
+                <li><a href="#">Yet another</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#" data-dropdown="resources" class="button radius dropdown">Dropdown Button</a><br>
+            <ul id="resources" data-dropdown-content class="f-dropdown">
+                <li><a href="#">This is a link</a></li>
+                <li><a href="#">This is another</a></li>
+                <li><a href="#">Yet another</a></li>
+            </ul>
+        </li>         
+    </ul>
+
+
+
+<!--     <div class="page_title">
+        <ul class="header_menu">
+            <li><a id="menu-1" data-dropdown="drop1" class="button dropdown">{{ page.title }}</a>
+                <ul class="list-1">
+                    <li {% if page.path == "index.html" %}class="highlight"{% endif %}>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li {% if page.path == "stage1.html" %}class="highlight"{% endif %}>
+                        <a href="stage1.html">Behind on payments (Stage 1)</a>
+                    </li>
+                    <li {% if page.path == "stage2.html" %} class="highlight" {% endif %} >
+                        <a href="stage2.html">90-Day <b>Pre-Foreclosure</b> Notice (Stage 2)</a>
+                    </li>
+                    <li {% if page.path == "stage3.html" %}class="highlight"{% endif %}>
+                        <a href="stage3.html"><b>The Demand Letter</b> (Stage 3)</a>
+                    </li>
+                    <li {% if page.path == "stage4.html" %}class="highlight"{% endif %}>
+                        <a href="stage4.html"><b>Summons & Complaint</b> notice (Stage 4)</a>
+                    </li>
+                    <li {% if page.path == "stage5.html" %}class="highlight"{% endif %}>
+                        <a href="stage5.html">File an <b>Answer</b> or <b>Notice of Appearance</b> (Stage 5)</a>
+                    </li>
+                    <li {% if page.path == "stage6.html" %}class="highlight"{% endif %}>
+                        <a href="stage6.html">Attend the<b> Settlement Conference</b> (Stage 6)</a>
+                    </li>
+                    <li {% if page.path == "stage7a.html" %}class="highlight"{% endif %}>
+                        <a href="stage7a.html">Successful Conference (Stage 7A)</a>
+                    </li>
+                    <li {% if page.path == "stage7b.html" %}class="highlight"{% endif %}>
+                        <a href="stage7b.html">Unsuccessful Conference (Stage 7B)</a>
+                    </li>
+                    <li {% if page.path == "stage8.html" %}class="highlight"{% endif %}>
+                        <a href="stage8.html"><b>Post Judgement</b> (Stage 8)</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="header_menu">
+            <li>
+                <a id="menu-2" href="#" data-dropdown="drop1" class="button dropdown">Documents</a>
+                <ul class="list-2">
+                    <li {% if page.path == "stage2.html" %}class="highlight"{% endif %}>
+                        <a href="prefc.html">90-Day Pre-Foreclosure Notice (Stage 2)</a>
+                    </li>
+                    <li {% if page.path == "stage3.html" %}class="highlight"{% endif %}>
+                        <a href="demand.html">Demand Letter (Stage 3)</a>
+                    </li>
+                    <li {% if page.path == "stage4.html" %}class="highlight"{% endif %}>
+                        <a href="summons.html">Summons (Stage 4)</a>
+                    </li>
+                    <li {% if page.path == "stage4.html" %}class="highlight"{% endif %}>
+                        <a href="complaint.html">Complaint (Stage 4)</a>
+                    </li>
+                    <li {% if page.path == "stage5.html" %}class="highlight"{% endif %}>
+                        <a href="answer.html">Filing an Answer (Stage 5)</a>
+                    </li>
+                    <li {% if page.path == "stage5.html" %}class="highlight"{% endif %}>
+                        <a href="appearance.html">Filing Notice of Appearance (Stage 5)</a>
+                    </li>
+                    <li {% if page.path == "stage6.html" %}class="highlight"{% endif %}>
+                        <a href="settlement.html">Settlement Conference (Stage 6)</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="header_menu">
+            <li>
+                <a id="menu-3" data-dropdown="drop1" class="button dropdown">Resources</a></button>
+                <ul class="list-3">
+                    {% if page.path == "stage6.html" %}
+                    <li class="highlight">
+                        <a href="checklist.html">My Checklist</a>
+                    </li>
+                    {% endif %}
+                    <li {% if page.path == "stage1.html" or page.path == "stage2.html" %}class="highlight"{% endif %}>
+                        <a href="http://www.consumerfinance.gov/find-a-housing-counselor/">Housing Counselor</a>
+                    </li>
+                    <li {% if page.path == "stage1.html" page.path == "stage2.html" %}class="highlight"{% endif %}>
+                        <a target="_blank" href="http://www.ag.ny.gov/consumer-frauds/help-homeowners">Avoid Scams</a>
+                    </li>
+                    <li>
+                        <a href="terminology.html">Important Terms</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+</div>
+
+
+
+
+
