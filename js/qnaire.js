@@ -4,10 +4,10 @@ $(document).ready(function(){
 	$query = $query.split("=");
 	$q = $query[1];
 
-	// if($q == null)
-	// {
-	// 	window.location.href = "qnaire.html?q=1";
-	// }
+	if($q == null && location.pathname == '/qnaire.html')
+	{
+		window.location.href = "qnaire.html?q=1";
+	}
 
 	$next = parseInt($q)+1;
 	$prev = parseInt($q)-1;
