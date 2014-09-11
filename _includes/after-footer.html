@@ -6,34 +6,50 @@
 
 <script type="text/javascript" src="js/home.js"></script>
 
-
+<!-- 
 <script type="text/javascript" src="js/checklist.js"></script>
-
+ -->
 <script type="text/javascript" src="js/terms.js"></script>
 
-{% if page.path == 'qnaire.html' %}
-    <script type="text/javascript" src="js/qnaire.js"></script>
-{% endif %}
+
+<script type="text/javascript" src="js/qnaire.js"></script>
+
 
 <script>
     $(document).foundation({
         accordion: {
     // specify the class used for active (or open) accordion panels
-    active_class: 'active-accordian',
+    active_class: 'active-accordion'
     // allow multiple accordion panels to be active at the same time
-    multi_expand: false,
+    // multi_expand: false,
     // allow accordion panels to be closed by clicking on their headers
     // setting to false only closes accordion panels when another is opened
-    toggleable: true
+    // toggleable: true
   }
+
 });
 </script>
 
 <script>
 $(document).ready(function(){
-    // $(".accordion").on("click", "dd", function (event) {
-    //     $("dd.active").find(".content").slideToggle("slow");
-    //     $(this).find(".content").slideToggle("slow");
+
+
+
+    $(".accordion").on("click", "dd", function (event, accordion) {
+        //$("dd.active").find(".content").slideToggle("slow");
+        $(this).find(".content").slideToggle("300");
+    });
+
+
+    //   $("a.dropdown").on("click", function (event, dropdown) {
+    //     //$("dd.active").find(".content").slideToggle("slow");
+    //     // console.log($(this).siblings('ul'));
+    //     $(this).next('ul.dropdown-content').slideToggle("100");
+
+
+    //     // $(this).next('ul.f-dropdown').hide().slideDown("100");
     // })
+
+
 });
  </script>

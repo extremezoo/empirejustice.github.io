@@ -2,6 +2,75 @@
 
 /////////HOME/////////////////////////////////////
 
+
+dl.accordion{
+    dd.accordion-navigation{
+
+
+        padding-bottom:10px;
+
+        .strip-side-padding{
+            padding-left:0px;
+            padding-right:0px;
+        }
+
+        ul.link-select{
+            margin-left:0;
+            & li a{
+                display: block;
+                padding: 6px 12px 6px 12px;
+                color: #404040;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                    box-shadow: 0 0 3px;
+                    color:$link-color;
+                }
+            }
+        }
+
+
+
+        & > a{ //Disable default accordion colors
+            // &:after {content: 'v';}
+            padding-bottom:0px;
+            background:none;
+            text-decoration: none;
+
+            &:hover{
+                background:none;
+                text-decoration: underline;
+            }
+        }
+
+        display:block;
+        @include linear-gradient(bottom, $primary-color, #57828B);
+        padding-bottom:10px;
+        margin-top:3px !important;
+
+        &:first-child{border-radius:6px 6px 0 0;} //radius top corners of first accordion tab
+
+        &:last-child{ //the last accordion tab
+            border-radius:0 0 6px 6px;
+            @include linear-gradient(bottom, $secondary-color, #F4336A);
+            .content{
+                border-left: solid 1px $secondary-color;
+                border-right: solid 1px $secondary-color;
+
+            }
+        }
+        .content{
+            margin-top: 10px;
+            border-left: solid 1px $primary-color;
+            border-right: solid 1px $primary-color;
+            background:white;
+
+        }   
+    }
+}
+
+
+
 .welcome{
     // text-align: center;
     // margin-bottom: 8px;
@@ -9,80 +78,7 @@
     margin-bottom:0px;
     & h3{color: #57828B;}
 }
-// .message p{margin-top: 6px;}
 
-.home_menu{margin-top: 10px;}
-
-.home_menu > li{
-    padding:10px 0 10px 0;
-    margin-bottom:2px;
-    background: #2ABCB9;
-    background: -moz-linear-gradient(bottom, $primary-color, #57828B);
-    background: -ms-linear-gradient(bottom, $primary-color, #57828B);
-    background: -webkit-linear-gradient(bottom, $primary-color, #57828B);
-    background: -o-linear-gradient(bottom, $primary-color, #57828B);
-    text-align: center;
-    font-size: 1.25em;
-    color:#fff;
-}
-.home_menu > li > ul{
-    margin-top:10px;
-    display: none;
-    color:#404040;
-    font-size: .8em;
-    border-left:1px $primary-color solid;
-    border-right:1px $primary-color solid;
-}
-.home_menu > li > a{
-    color:#fff;
-}
-.home_menu > li > ul > li{
-    background: rgb(250, 250, 250);
-    text-align: left;
-}
-.home_menu > li > ul > li:hover{
-    box-shadow: 0 0 3px 1px rgb(200, 200, 200) inset;
-    color:#404040;
-}
-.home_menu > li > ul > li > a{
-    display:block;
-    padding:6px 12px 6px 12px; 
-}
-.home_menu > li > ul > li > p{
-    display:block;
-    padding:6px 12px 6px 12px; 
-}
-.home_menu{ 
-    margin-left: 0px;
-    li{
-        padding: 6px 0 6px 0;
-        ul{ margin:0;}
-    }
-}
-
-li.first{
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
-}
-li.last{
-    background: $secondary-color;
-    background: -moz-linear-gradient(bottom, #F45A86, #F4336A);
-    background: -ms-linear-gradient(bottom, #F45A86, #F4336A);
-    background: -webkit-linear-gradient(bottom, #F45A86, #F4336A);
-    background: -o-linear-gradient(bottom, #F45A86, #F4336A);
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-}
-li.last ul{
-    border-left: 1px $secondary-color solid;
-    border-right: 1px $secondary-color solid;
-}
-.menu_dropdown{
-    background:none !important;
-    font-size:1.05em;
-    padding-top:0;
-    padding-bottom:0;
-}
 
 //////////////END HOME/////////////////////////////////////
 
@@ -106,15 +102,17 @@ li.last ul{
 
 ///////////////TERMS///////////////////////////
 #glossaryNav{
-    overflow:hidden;
-    & ul li a{padding:0 10px 0 10px;}
+    padding:0;
+    margin-bottom: 0;
+    // overflow:hidden;
+    // & ul li a{padding:0 10px 0 10px;}
 }
 
 .glossaryContent{
     & dd{
-       display: none;
-       border:1px lightgray solid;
-    }& dt,dd{
+     display: none;
+     border:1px lightgray solid;
+     }& dt,dd{
         padding: 0 6px 0 6px;
         border-radius:6px;
     }
@@ -129,10 +127,12 @@ li.last ul{
 }
 
 .side_container{
-    // @extend .container;
     border-radius: 10px;
     text-align: center;
-    & li{float: left;}
+    padding-top:0;
+    padding-bottom:0;
+    width: auto;
+    
 }
 
 
@@ -152,3 +152,13 @@ li.last ul{
 }
 
 ////////////////////////////////////////////////////
+
+/////////////////CHECKLIST//////////////////////////
+
+table.print-table tr{
+        border-bottom: 1px $main-border-color solid;
+        display:block;
+        &:last-child{border-bottom:none;}
+}
+
+///////////////////////////////////////////////////
