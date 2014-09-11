@@ -5,10 +5,11 @@ markdown: redcarpet
 highlighter: pygments 
 
 sass:
-    sass_dir: _scss
+    sass_dir: stylesheets
     style: expanded
 css:
-    css_dir: css
+    css_dir: stylesheets
+
 
 exclude: ["bower_components","foundation"]
 

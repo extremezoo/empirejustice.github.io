@@ -1,8 +1,6 @@
 
-
+.sass-cache
 .sass-cache/*
 _site/
 bower_components/
-foundatidon/
-foundatiodn-icons/
 CNAME
